@@ -21,13 +21,33 @@ public class DialogueBox : MonoBehaviour
     public TextMeshProUGUI tmp_speaker;
     public TextMeshProUGUI tmp_content;
 
+    public GameObject arrow;
+
+    private bool isTextEnd; // 모든 텍스트가 출력되었는가?
+
     void OnEnable()
     {
         SetUI();
     }
 
+    void Update()
+    {
+        if (content == tmp_content.text)
+        {
+            isTextEnd = true;
+
+            if (!arrow.activeSelf)
+            {
+                arrow.SetActive(true);
+            }
+        }
+        else isTextEnd = false;
+    }
+
     public void SetUI()
     {
+        arrow.SetActive(false);
+
         if (speaker != null)
         {
             if (speaker == "@")
@@ -46,6 +66,11 @@ public class DialogueBox : MonoBehaviour
 
     public void OnClick()
     {
+        if (!isTextEnd)
+        {
+            return;
+        }
+
         SoundManager.Instance.PlaySFX(SFX.UI);
         DialogueManager.Instance.NextPage();
     }
