@@ -241,7 +241,7 @@ public class GameManager : MonoBehaviour
         g_State = gameState.Default;
 
         Control_Popup(false); // 팝업을 닫음
-        SoundManager.Instance.BgmControl(BgmStatus.Stop);
+        SoundManager.Instance.BgmControl(BgmStatus.Pause);
         // SoundManager.Instance.PlaySFX(SFX.SceneChange);
 
         yield return StartCoroutine(Fade()); // 창 어둡게
