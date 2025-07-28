@@ -16,6 +16,12 @@ public enum textStep
 
 public class TextSetting : MonoBehaviour
 {
+    [SerializeField] private float _speed;
+    public float speed
+    {
+        get { return _speed; }
+        set { _speed = value; }
+    }
     [SerializeField] private textStep m_textStep;
     private textStep my_textStep;
     public TextMeshProUGUI text_ui;
@@ -100,6 +106,8 @@ public class TextSetting : MonoBehaviour
     void Set_TextSpeed()
     {
         m_textStep = my_textStep;
+
+        speed = Get_Speed();
 
         Debug.Log(m_textStep + " 적용됨");
     }
