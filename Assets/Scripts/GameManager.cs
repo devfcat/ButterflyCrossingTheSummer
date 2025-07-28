@@ -152,13 +152,29 @@ public class GameManager : MonoBehaviour
         {
             if (isPopupOn)
             {
+                SoundManager.Instance.PlaySFX(SFX.UI);
                 Control_Popup(false);
             }
             else
             {
-                // SoundManager.Instance.PlaySFX(SFX.UI);
-                Control_Popup(true, Panel_Setting);
+                SoundManager.Instance.PlaySFX(SFX.UI);
+                Control_Setting();
             }
+        }
+    }
+
+    // 설정창 제어
+    public void Control_Setting()
+    {
+        if (Panel_Setting.activeSelf)
+        {
+            SoundManager.Instance.PlaySFX(SFX.UI);
+            Control_Popup(false);
+        }
+        else
+        {
+            SoundManager.Instance.PlaySFX(SFX.UI);
+            Control_Popup(true, Panel_Setting);
         }
     }
 
@@ -232,7 +248,7 @@ public class GameManager : MonoBehaviour
         g_State = gameState.Default;
 
         Control_Popup(false); // 팝업을 닫음
-        // SoundManager.Instance.BgmControl(BgmStatus.Pause);
+        SoundManager.Instance.BgmControl(BgmStatus.Pause);
         // SoundManager.Instance.PlaySFX(SFX.SceneChange);
 
         yield return StartCoroutine(Fade()); // 창 어둡게
@@ -249,6 +265,6 @@ public class GameManager : MonoBehaviour
 
         isWorking = false;
 
-        // SoundManager.Instance.BgmControl(BgmStatus.Play);
+        SoundManager.Instance.BgmControl(BgmStatus.Play);
     }
 }
