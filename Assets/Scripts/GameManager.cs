@@ -152,14 +152,21 @@ public class GameManager : MonoBehaviour
         {
             if (isPopupOn)
             {
-                SoundManager.Instance.PlaySFX(SFX.UI);
                 Control_Popup(false);
             }
             else
             {
-                SoundManager.Instance.PlaySFX(SFX.UI);
                 Control_Setting();
             }
+        }
+
+        if (isWorking)
+        {
+            if (!Panel_Loading.activeSelf) Panel_Loading.SetActive(true);
+        }
+        else
+        {
+            if (Panel_Loading.activeSelf) Panel_Loading.SetActive(false);
         }
     }
 
@@ -168,12 +175,10 @@ public class GameManager : MonoBehaviour
     {
         if (Panel_Setting.activeSelf)
         {
-            SoundManager.Instance.PlaySFX(SFX.UI);
             Control_Popup(false);
         }
         else
         {
-            SoundManager.Instance.PlaySFX(SFX.UI);
             Control_Popup(true, Panel_Setting);
         }
     }
@@ -189,16 +194,15 @@ public class GameManager : MonoBehaviour
         isPopupOn = on;
         if (on)
         {
-            // 팝업 소리 재생
+            SoundManager.Instance.PlaySFX(SFX.UI);
+
             m_Popup = b;
             m_Popup.SetActive(true);
         }
         else if (m_Popup != null)
         {
-            if(m_Popup.activeSelf)
-            {
-                // 팝업 소리 재생
-            }
+            SoundManager.Instance.PlaySFX(SFX.UI);
+
             m_Popup.SetActive(false);
         }
     }
@@ -224,16 +228,7 @@ public class GameManager : MonoBehaviour
         }
 
         m_State = state;
-        
-        switch(m_State)
-        {
-            case eState.Main:
-                StartCoroutine(Change_Scene("Main"));
-                break;
-            default:
-                SetState(eState.Main);
-                break;  
-        }
+        StartCoroutine(Change_Scene(m_State.ToString()));
     }
 
     /// <summary>
@@ -243,12 +238,10 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     IEnumerator Change_Scene(string scenename)
     {
-        // Control_Setting();
-        Panel_Setting.SetActive(false);
         g_State = gameState.Default;
 
         Control_Popup(false); // 팝업을 닫음
-        SoundManager.Instance.BgmControl(BgmStatus.Pause);
+        SoundManager.Instance.BgmControl(BgmStatus.Stop);
         // SoundManager.Instance.PlaySFX(SFX.SceneChange);
 
         yield return StartCoroutine(Fade()); // 창 어둡게
@@ -265,6 +258,6 @@ public class GameManager : MonoBehaviour
 
         isWorking = false;
 
-        SoundManager.Instance.BgmControl(BgmStatus.Play);
+        // SoundManager.Instance.BgmControl(BgmStatus.Play);
     }
 }
