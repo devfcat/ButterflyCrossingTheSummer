@@ -130,6 +130,8 @@ public class DisplaySetting : MonoBehaviour
                 Screen.SetResolution(1920, 1080, FullScreenMode.FullScreenWindow);
                 break;
         }
+
+        Debug.Log(m_resolution + " 적용됨");
     }
 
     // 왼쪽 오른쪽 해상도 고르기
@@ -169,7 +171,5 @@ public class DisplaySetting : MonoBehaviour
         Set_UI();
         Set_Resolution();
         Control_data(true); // 해상도 저장
-
-        Debug.Log(m_resolution + " 적용됨");
     }
 }
