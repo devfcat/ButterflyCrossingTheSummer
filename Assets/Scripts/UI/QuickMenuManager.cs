@@ -126,7 +126,7 @@ public class QuickMenuManager : MonoBehaviour
     {
         if (m_mode == Mode.auto) // 이미 오토 모드일 경우
         {
-            m_mode = Mode.normal; // 모드 끄기기
+            m_mode = Mode.normal; // 모드 끄기
         }
         else // 기본 모드거나 스킵일 경우
         {
@@ -137,6 +137,8 @@ public class QuickMenuManager : MonoBehaviour
     public void ControlUIImages(bool isOn)
     {
         isUIOn = isOn;
+
+        m_mode = Mode.normal;
 
         for (int i = 0; i < uis.Count; i++)
         {
