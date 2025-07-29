@@ -258,6 +258,6 @@ public class GameManager : MonoBehaviour
 
         isWorking = false;
 
-        // SoundManager.Instance.BgmControl(BgmStatus.Play);
+        SoundManager.Instance.BgmControl(BgmStatus.Play);
     }
 }
