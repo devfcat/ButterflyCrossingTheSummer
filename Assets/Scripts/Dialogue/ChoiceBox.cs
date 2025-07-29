@@ -17,6 +17,7 @@ public class ChoiceBox : MonoBehaviour
 
     [Header("UI 컴포넌트")]
     public List<TextMeshProUGUI> tmp_contents;
+    public List<GameObject> boxes;
 
     void OnEnable()
     {
@@ -48,10 +49,12 @@ public class ChoiceBox : MonoBehaviour
             {
                 tmp_contents[i].text = contents[i];
                 tmp_contents[i].gameObject.SetActive(true);
+                boxes[i].SetActive(true);
             }
             else
             {
                 tmp_contents[i].gameObject.SetActive(false);
+                boxes[i].SetActive(false);
             }
         }
     }

@@ -23,7 +23,13 @@ public class DialogueBox : MonoBehaviour
 
     public GameObject arrow;
 
+    [Header("내부 기능 요소")]
+    public Text_Animation m_textAnimation;
+    public ParserName parser;
+
+
     private bool isTextEnd; // 모든 텍스트가 출력되었는가?
+    private bool isAutoCoroutineRunning = false;
 
     void OnEnable()
     {
@@ -32,7 +38,7 @@ public class DialogueBox : MonoBehaviour
 
     void Update()
     {
-        if (content == tmp_content.text)
+        if (content == tmp_content.text) // 모든 대사를 띄웠다면
         {
             isTextEnd = true;
 
@@ -40,12 +46,44 @@ public class DialogueBox : MonoBehaviour
             {
                 arrow.SetActive(true);
             }
+
+            // 오토 모드 코루틴 중복 방지
+            if (QuickMenuManager.Instance.m_mode == Mode.auto && !isAutoCoroutineRunning)
+            {
+                StartCoroutine(Delay_OnClick(2f));
+                isAutoCoroutineRunning = true;
+            }
+
+            if (QuickMenuManager.Instance.m_mode == Mode.skip && !isAutoCoroutineRunning)
+            {
+                StartCoroutine(Delay_OnClick(0.1f));
+                isAutoCoroutineRunning = true;
+            }
         }
-        else isTextEnd = false;
+        else
+        {
+            isTextEnd = false;
+            isAutoCoroutineRunning = false; // 텍스트가 바뀌면 코루틴 플래그 해제
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnClick();
+        }
+    }
+
+    public IEnumerator Delay_OnClick(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        OnClick();
+        isAutoCoroutineRunning = false; // 코루틴 끝나면 플래그 해제
     }
 
     public void SetUI()
     {
+        parser.Parse();
+        
         arrow.SetActive(false);
 
         if (speaker != null)
@@ -68,10 +106,11 @@ public class DialogueBox : MonoBehaviour
     {
         if (!isTextEnd)
         {
+            m_textAnimation.SkipAnimation();
             return;
         }
 
-        SoundManager.Instance.PlaySFX(SFX.UI);
+        // SoundManager.Instance.PlaySFX(SFX.UI);
         DialogueManager.Instance.NextPage();
     }
 }
