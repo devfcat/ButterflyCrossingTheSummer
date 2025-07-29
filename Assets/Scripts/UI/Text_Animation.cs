@@ -32,7 +32,22 @@ public class Text_Animation : MonoBehaviour
 
             stringBuilder.Append(text[i]);
             tmp.text = stringBuilder.ToString();
-            yield return new WaitForSeconds(TextSetting.Instance.speed);
+
+            if (QuickMenuManager.Instance.m_mode == Mode.skip)
+            {
+                yield return new WaitForSeconds(0.0005f);
+            }
+            else yield return new WaitForSeconds(TextSetting.Instance.speed);
+        }
+    }
+
+    public void SkipAnimation()
+    {
+        if (typeCoroutine != null)
+        {
+            StopCoroutine(typeCoroutine);
+            tmp.text = contents; // 전체 텍스트를 즉시 표시
+            typeCoroutine = null;
         }
     }
 }
