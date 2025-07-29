@@ -104,6 +104,10 @@ MonoBehaviour:
   - {fileID: 828624481036654215}
   - {fileID: 898682841378958309}
   - {fileID: 8737646038125173638}
+  boxes:
+  - {fileID: 5875038594020195097}
+  - {fileID: 2738239884109057759}
+  - {fileID: 4537351973899021555}
 --- !u!114 &9218676657382636481
 MonoBehaviour:
   m_ObjectHideFlags: 0
