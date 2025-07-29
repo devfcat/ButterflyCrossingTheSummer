@@ -14,6 +14,7 @@ public class QuickMenu : MonoBehaviour
     void OnEnable()
     {
         Init();
+        QuickMenuManager.Instance.Set_AudioBTNUI();
     }
 
     void OnDisable()
@@ -81,5 +82,10 @@ public class QuickMenu : MonoBehaviour
     public void OnClick_Auto()
     {
         QuickMenuManager.Instance.Control_Auto();
+    }
+
+    public void OnClick_Audio()
+    {
+        QuickMenuManager.Instance.Control_Audio();
     }
 }

@@ -38,6 +38,7 @@ public class QuickMenuManager : MonoBehaviour
     public List<GameObject> uis; // UI들 (켜고 끌 게임오브젝트들)
 
     [SerializeField] private bool isUIOn;
+    [SerializeField] private bool isAudioOn;
 
     public Mode m_mode; // 현재 모드
 
@@ -66,11 +67,47 @@ public class QuickMenuManager : MonoBehaviour
     void Start()
     {
         m_mode = Mode.normal; // 초기화
+
+        if (SoundManager.Instance.BgmVolume != 0)
+        {
+            isAudioOn = true;
+        }
+        else isAudioOn = false;
+
+        Set_AudioBTNUI();
     }
 
     public void Setting()
     {
         GameManager.Instance.Control_Setting();
+    }
+
+    public void Set_AudioBTNUI()
+    {
+        if (isAudioOn) // 오디오가 켜져 있는 상태라면
+        {
+            audioBTN.sprite = audioImages[0];
+        }
+        else // 꺼져 있는 상태라면면
+        {
+            audioBTN.sprite = audioImages[1];
+        }
+    }
+
+    public void Control_Audio()
+    {
+        if (isAudioOn) // 오디오가 켜져 있는 상태라면
+        {
+            isAudioOn = false;
+            SoundManager.Instance.Control_Audio(false);
+            Set_AudioBTNUI();
+        }
+        else // 꺼져 있는 상태라면
+        {
+            isAudioOn = true;
+            SoundManager.Instance.Control_Audio(true);
+            Set_AudioBTNUI();
+        }
     }
 
     public void Control_Skip()
@@ -95,11 +132,6 @@ public class QuickMenuManager : MonoBehaviour
         {
             m_mode = Mode.auto;
         }
-    }
-
-    public void AudioControl()
-    {
-
     }
 
     public void ControlUIImages(bool isOn)

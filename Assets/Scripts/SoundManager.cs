@@ -44,6 +44,9 @@ public class SoundManager : MonoBehaviour
     [ReadOnly, SerializeField, Range(0, 1), Tooltip("Bgm 볼륨")] private float Volume1 = 1f;
     [ReadOnly, SerializeField, Range(0, 1), Tooltip("Sfx 볼륨")] private float Volume2 = 1f;
 
+    private float temp_bgm;
+    private float temp_sfx;
+    
     private static SoundManager _instance;
     public static SoundManager Instance
     {
@@ -149,6 +152,36 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void Control_Audio(bool isOn)
+    {
+        if (!isOn) // 소리 끄기
+        {
+            // 임시로 사운드 수치 저장
+            temp_bgm = BgmVolume;
+            temp_sfx = SfxVolume;
+
+            BgmVolume = 0;
+            SfxVolume = 0;
+        }
+        else // 소리 켜기
+        {
+            // 임시 저장된 값이 없다면
+            if (temp_bgm == 0 || temp_sfx == 0)
+            {
+                temp_bgm = 1;
+                temp_sfx = 1;
+            }
+
+            BgmVolume = temp_bgm;
+            SfxVolume = temp_sfx;
+        }
+
+        bgmPlayer.volume = BgmVolume;
+        sfxPlayer.volume = SfxVolume;
+
+        SetVolumePref();
     }
 
     // BGM 소리 조절
