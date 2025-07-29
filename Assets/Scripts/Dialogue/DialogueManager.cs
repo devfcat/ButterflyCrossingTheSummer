@@ -165,6 +165,8 @@ public class DialogueManager : MonoBehaviour
                 script.choiceScore = bookData.dialogues[i].choiceScore;
 
                 script.SetUI();
+
+                // 만약 choiceResult에 값이 있다면 (선택 이후 스크립트가 개별 존재한다면)
             }
             else // 선택지 데이터가 아닌가
             {
