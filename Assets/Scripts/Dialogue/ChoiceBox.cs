@@ -59,8 +59,11 @@ public class ChoiceBox : MonoBehaviour
         }
     }
 
-    public void OnClick()
+    public void OnClick(int i = 0) // 선택지 번호
     {
+        LogManager.Instance.Add_Log(contents[i]);
+        LogManager.Instance.Make_LogUI();
+        
         SoundManager.Instance.PlaySFX(SFX.UI);
 
         // 추후에 선택지 결과 분기에 따라 추가적으로 대사창을 생성하는 기능 등 추가할 것.
