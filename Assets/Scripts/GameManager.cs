@@ -110,17 +110,18 @@ public class GameManager : MonoBehaviour
 
     /// <summary>
     /// 잠깐 어두워졌다가 다시 밝아지는 화면 효과
+    /// 기본 시간은 2초
     /// StartCoroutine(GameManager.Instance.Curtain()); 로 사용.
     /// </summary>
     /// <returns></returns>
-    public IEnumerator Curtain()
+    public IEnumerator Curtain(float time = 2f)
     {
         isWorking = true;
 
         Panel_FadeIn.SetActive(true);
         Panel_FadeOut.SetActive(false);
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(time);
 
         Panel_FadeIn.SetActive(false);
         Panel_FadeOut.SetActive(true);
@@ -188,7 +189,9 @@ public class GameManager : MonoBehaviour
     {
         if(m_Popup != null && m_Popup.activeSelf) // 이전에 켜진 팝업이 있는데 다른 팝업을 켤 경우 끔
         {
+            SoundManager.Instance.PlaySFX(SFX.UI);
             m_Popup.SetActive(false);
+            return;
         }
 
         isPopupOn = on;
@@ -202,7 +205,6 @@ public class GameManager : MonoBehaviour
         else if (m_Popup != null)
         {
             SoundManager.Instance.PlaySFX(SFX.UI);
-
             m_Popup.SetActive(false);
         }
     }
