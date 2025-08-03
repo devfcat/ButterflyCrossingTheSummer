@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 대사 박스에 사용되는 parser
+/// </summary>
 public class ParserName : MonoBehaviour
 {
     public DialogueBox box;
