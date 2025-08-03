@@ -60,9 +60,14 @@ public class DialogueBox : MonoBehaviour
                 isAutoCoroutineRunning = true;
             }
         }
-        else
+        else // 대사가 나올 때
         {
             isTextEnd = false;
+
+            if (QuickMenuManager.Instance.m_mode == Mode.skip)
+            {
+                StartCoroutine(Skip_OnClick(0.2f));
+            }
             isAutoCoroutineRunning = false; // 텍스트가 바뀌면 코루틴 플래그 해제
         }
 
@@ -70,6 +75,14 @@ public class DialogueBox : MonoBehaviour
         {
             OnClick();
         }
+    }
+
+    public IEnumerator Skip_OnClick(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        OnClick();
+        isAutoCoroutineRunning = false; // 코루틴 끝나면 플래그 해제
     }
 
     public IEnumerator Delay_OnClick(float time)
