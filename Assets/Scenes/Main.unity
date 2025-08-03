@@ -13888,7 +13888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 2067336607}
-  moveAmount: 0.15
+  moveAmount: 0.2
   smoothSpeed: 2
 --- !u!114 &2067336607
 MonoBehaviour:

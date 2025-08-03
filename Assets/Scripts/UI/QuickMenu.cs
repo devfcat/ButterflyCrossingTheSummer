@@ -79,6 +79,11 @@ public class QuickMenu : MonoBehaviour
         QuickMenuManager.Instance.Control_Skip();
     }
 
+    public void OnClick_Log()
+    {
+        LogManager.Instance.Control_Log(true);
+    }
+
     public void OnClick_Auto()
     {
         QuickMenuManager.Instance.Control_Auto();
