@@ -42,6 +42,9 @@ public class QuickMenuManager : MonoBehaviour
 
     public Mode m_mode; // 현재 모드
 
+    /// 스페이스바를 3초 이상 누르면 스킵 모드를 활성화함
+    private float pressSpaceTime = 0f;
+
     void Update()
     {
         if (!isUIOn)
@@ -61,6 +64,24 @@ public class QuickMenuManager : MonoBehaviour
             {
                 m_mode = Mode.normal;
             }
+        }
+
+        /// 스페이스바를 2초 이상 누르면 스킵 모드를 활성화함
+        /// 이후 스페이스 꾹 누르면 아이콘 뜨도록 작업할 예정
+        if (Input.GetKey(KeyCode.Space))
+        {
+            pressSpaceTime += Time.deltaTime;
+
+            if (pressSpaceTime >= 2f)
+            {
+                m_mode = Mode.skip;  
+                pressSpaceTime = 0f; 
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            pressSpaceTime = 0f;
         }
     }
 
