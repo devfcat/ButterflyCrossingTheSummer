@@ -35,7 +35,7 @@ public class Text_Animation : MonoBehaviour
 
             if (QuickMenuManager.Instance.m_mode == Mode.skip)
             {
-                yield return new WaitForSeconds(0.0005f);
+                yield return new WaitForSeconds(0.0001f);
             }
             else yield return new WaitForSeconds(TextSetting.Instance.speed);
         }
