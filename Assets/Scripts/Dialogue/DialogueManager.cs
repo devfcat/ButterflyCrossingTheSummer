@@ -221,9 +221,16 @@ public class DialogueManager : MonoBehaviour
             my_dialogues[m_index].SetActive(true);
         }
         else {my_dialogues[m_index].SetActive(true);} // 첫 시작
+        
+        // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
+        if (!list_dialogue[m_index].isChoiceBool)
+        {
+            LogManager.Instance.Add_Log(list_dialogue[m_index].content, list_dialogue[m_index].speaker);
+            LogManager.Instance.Make_LogUI();
+        }
+
         yield return null;
     }
-
     // 마지막 대사창을 본 후의 처리
     public void Paging()
     {
