@@ -191,6 +191,7 @@ public class GameManager : MonoBehaviour
         {
             SoundManager.Instance.PlaySFX(SFX.UI);
             m_Popup.SetActive(false);
+            isPopupOn = false;
             return;
         }
 
