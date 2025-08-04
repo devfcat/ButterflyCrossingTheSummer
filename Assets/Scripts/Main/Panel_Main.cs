@@ -6,6 +6,7 @@ public class Panel_Main : MonoBehaviour
 {
     [Header("메인 화면의 패널들")]
     public GameObject Panel_Gallery;
+    public GameObject Panel_Teams;
 
     public void OnClick_Setting()
     {
@@ -15,6 +16,11 @@ public class Panel_Main : MonoBehaviour
     public void OnClick_Gallery()
     {
         GameManager.Instance.Control_Popup(true, Panel_Gallery);
+    }
+
+    public void OnClick_Teams()
+    {
+        GameManager.Instance.Control_Popup(true, Panel_Teams);
     }
 
     public void OnClick_New()
