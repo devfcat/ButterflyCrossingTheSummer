@@ -10,7 +10,7 @@ public class ChoiceBox : MonoBehaviour
     public string? se;
     public bool fade;
     public bool isChoice;
-    public string? choiceResult;
+    public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
     public string? choiceScore;
 
     public List<string> contents;
@@ -66,7 +66,14 @@ public class ChoiceBox : MonoBehaviour
         
         SoundManager.Instance.PlaySFX(SFX.UI);
 
-        // 추후에 선택지 결과 분기에 따라 추가적으로 대사창을 생성하는 기능 등 추가할 것.
-        DialogueManager.Instance.NextPage();
+        // 만약에 선택지 결과가 있으면 그 결과에 따라 다음 대사창으로 넘어감
+        if (choiceResult != null && choiceResult != "")
+        {
+            StartCoroutine(DialogueManager.Instance.Add_Dialogues(i));
+        }
+        else
+        {
+            DialogueManager.Instance.NextPage();
+        }
     }
 }
