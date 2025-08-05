@@ -250,6 +250,17 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    public void StopBGM()
+    {
+        bgmPlayer.clip = null;
+        bgmPlayer.Stop();
+    }
+    public void StopSFX()
+    {
+        sfxPlayer.clip = null;
+        sfxPlayer.Stop();
+    }
+
     /// <summary>
     /// Bgm 상태 변경
     /// </summary>
