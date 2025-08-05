@@ -177,7 +177,7 @@ public class DialogueManager : MonoBehaviour
                 script.choiceResult = bookData.dialogues[i].choiceResult;
                 script.choiceScore = bookData.dialogues[i].choiceScore;
 
-                script.SetUI();
+                // script.SetUI();
             }
             else // 선택지 데이터가 아닌가
             {
@@ -204,7 +204,7 @@ public class DialogueManager : MonoBehaviour
                 }
                 script.isChangeSoft = bookData.dialogues[i].isChangeSoftBool;
 
-                script.SetUI();
+                // script.SetUI();
             }
         }
 
@@ -438,7 +438,7 @@ public class DialogueManager : MonoBehaviour
             }
             script.isChangeSoft = choiceBookData.dialogues[i].isChangeSoftBool;
 
-            script.SetUI();
+            // script.SetUI();
         }
 
         // 현재 선택지를 닫는다

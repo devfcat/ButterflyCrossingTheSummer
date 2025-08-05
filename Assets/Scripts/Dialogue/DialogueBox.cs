@@ -121,6 +121,29 @@ public class DialogueBox : MonoBehaviour
         else {tmp_speaker.text = "";}
 
         tmp_content.text = content;
+
+        Debug.Log($"DialogueBox.SetUI - bg: '{bg}', speaker: '{speaker}'");
+
+        if (ecg != null && ecg != "")
+        {
+            BGECG.Instance.SetECG(ecg);
+        }
+        else
+        {
+            BGECG.Instance.ClearECG();
+        }
+
+        if (bg == "" || bg == null)
+        {
+            Debug.Log("bg가 빈 문자열이므로 ClearBG 호출");
+            if (ecg != "" && ecg != null) {}
+            else {BGECG.Instance.ClearBG();}
+        }
+        else
+        {
+            Debug.Log($"bg가 '{bg}'이므로 SetBG 호출");
+            BGECG.Instance.SetBG(bg, isChangeSoft);
+        }
     }
 
     public void SetSound()
