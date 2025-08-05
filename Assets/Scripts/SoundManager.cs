@@ -11,6 +11,13 @@ using UnityEngine.SceneManagement;
 public enum BGM
 {
     Title = 0,
+    Office_Calm = 1,
+    Jazz1 = 2,
+    Night1 = 3,
+    BGM_Grasses = 4,
+    BGM_Garden1 = 5,
+    Park_Night = 6,
+
 }
 
 /// <summary>
@@ -29,6 +36,10 @@ public enum BgmStatus
 public enum SFX
 {
     UI = 0,
+    SE_KakaoTalk = 1,
+    SE_ClickingGlass = 2,
+    SE_LighterOn = 3,
+    SE_DoorOpen = 4,
 }
 
 public class SoundManager : MonoBehaviour
