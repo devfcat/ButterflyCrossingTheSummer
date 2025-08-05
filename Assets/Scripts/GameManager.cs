@@ -244,8 +244,7 @@ public class GameManager : MonoBehaviour
         g_State = gameState.Default;
 
         Control_Popup(false); // 팝업을 닫음
-        SoundManager.Instance.BgmControl(BgmStatus.Pause);
-        // SoundManager.Instance.PlaySFX(SFX.SceneChange);
+        // SoundManager.Instance.StopBGM(); // 씬 변경 시 BGM 중지하지 않음
 
         yield return StartCoroutine(Fade()); // 창 어둡게
 
@@ -260,7 +259,5 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Fade(true));
 
         isWorking = false;
-
-        SoundManager.Instance.BgmControl(BgmStatus.Play);
     }
 }
