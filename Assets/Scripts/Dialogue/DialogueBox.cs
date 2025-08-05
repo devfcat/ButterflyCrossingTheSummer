@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// 대사창의 데이터구조를 정의한 클래스
+/// 대사창이 뜰 때의 기능도 포함되어 있다.
+/// </summary>
 public class DialogueBox : MonoBehaviour
 {
     public string? speaker;
@@ -10,24 +14,23 @@ public class DialogueBox : MonoBehaviour
     public string? scg;
     public string bg;
     public string? ecg;
-    public string bgm;
+    public string? bgm;
     public string? se;
     public bool fade;
+    public float? fadeTime; // 커튼 페이드 시간(fade가 true일 때만 사용)
     public bool isChoice;
     public string? choiceResult;
     public string? choiceScore;
+    public bool isChangeSoft; // scg와 bg가 부드럽게 바뀌는가 (서서히 나타남)
 
     [Header("UI 컴포넌트")]
     public TextMeshProUGUI tmp_speaker;
     public TextMeshProUGUI tmp_content;
-
     public GameObject arrow;
 
     [Header("내부 기능 요소")]
     public Text_Animation m_textAnimation;
     public ParserName parser;
-
-
     private bool isTextEnd; // 모든 텍스트가 출력되었는가?
     private bool isAutoCoroutineRunning = false;
 
@@ -66,7 +69,7 @@ public class DialogueBox : MonoBehaviour
 
             if (QuickMenuManager.Instance.m_mode == Mode.skip)
             {
-                StartCoroutine(Skip_OnClick(0.2f));
+                StartCoroutine(Skip_OnClick(0.15f));
             }
             isAutoCoroutineRunning = false; // 텍스트가 바뀌면 코루틴 플래그 해제
         }
@@ -93,6 +96,9 @@ public class DialogueBox : MonoBehaviour
         isAutoCoroutineRunning = false; // 코루틴 끝나면 플래그 해제
     }
 
+    /// <summary>
+    /// 현재 대사의 데이터를 화면에 표시하며 관련 이벤트를 실행시킴
+    /// </summary>
     public void SetUI()
     {
         parser.Parse();
@@ -113,6 +119,8 @@ public class DialogueBox : MonoBehaviour
         else {tmp_speaker.text = "";}
 
         tmp_content.text = content;
+
+        // 해당하는 scg, bg, ecg, bgm, se 등을 세팅
     }
 
     public void OnClick()
@@ -123,6 +131,22 @@ public class DialogueBox : MonoBehaviour
             return;
         }
 
+        /// 만약 현재 대사창의 fade가 true라면 이 대사를 다 보고 다음 대사창으로 넘어가기 전에 커튼을 페이드 시킴
+        if (fade && QuickMenuManager.Instance.m_mode == Mode.normal) // 만약 스킵이나 오토라면 넘길 때 암전효과를 끔   
+        {
+            // gameManager의 커튼을 일정 시간 세팅하고 완료 후 다음 페이지로
+            StartCoroutine(CurtainAndNextPage(fadeTime ?? 2f));
+        }
+        else
+        {
+            // SoundManager.Instance.PlaySFX(SFX.UI);
+            DialogueManager.Instance.NextPage();
+        }
+    }
+
+    private IEnumerator CurtainAndNextPage(float time)
+    {
+        yield return StartCoroutine(GameManager.Instance.Curtain(time));
         // SoundManager.Instance.PlaySFX(SFX.UI);
         DialogueManager.Instance.NextPage();
     }
