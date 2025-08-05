@@ -337,6 +337,7 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("일반 대사 완료, 다음 챕터로 이동");
             // 다음 챕터로 이동
+            GameManager.Instance.SetState(n_scene);
         }
     }
 

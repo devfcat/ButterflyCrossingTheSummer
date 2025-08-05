@@ -9,6 +9,7 @@ public enum eState
 {
     Main = 0,
     Chapter1 = 1,
+    Chapter2 = 2,
 }
 
 public enum gameState
@@ -116,17 +117,16 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     public IEnumerator Curtain(float time = 2f)
     {
-        isWorking = true;
-
+        // 페이드 인 시작
         Panel_FadeIn.SetActive(true);
         Panel_FadeOut.SetActive(false);
 
+        // 페이드 인 완료까지 대기
         yield return new WaitForSeconds(time);
 
+        // 페이드 아웃 시작
         Panel_FadeIn.SetActive(false);
         Panel_FadeOut.SetActive(true);
-
-        isWorking = false;
     }
 
     public void Load()

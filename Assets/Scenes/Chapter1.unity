@@ -876,11 +876,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6a12388bd52f248aac5f9bfc9fac57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  n_scene: 2
   my_dialogues: []
+  my_addedDialogues: []
   dialoguePrefab: {fileID: 5177326617791502834, guid: cbdc8eddb1ddb6f4e84357245c45806c, type: 3}
   choicePrefab: {fileID: 424636680202426268, guid: 6cc8c1d51ed2b8443b4a524f2e4d441f, type: 3}
   m_index: 0
+  m_addedIndex: 0
+  m_choiceFileIndex: 0
   length: 0
+  length_added: 0
+  isReadAddedDialogue: 0
   m_file: {fileID: 4900000, guid: 9f083fe709f19a34fb9803bc51f6c20e, type: 3}
   m_choiceFile:
   - {fileID: 4900000, guid: d4af00e9d51bec948baa3dd31d557efc, type: 3}
@@ -888,6 +894,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 569f106bf96b8984aafec3e25fef72b6, type: 3}
   value_dialogue: 0
   list_dialogue: []
+  list_addedDialogue: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
