@@ -37,6 +37,8 @@ public class DialogueBox : MonoBehaviour
     void OnEnable()
     {
         SetUI();
+        // 해당하는 scg, bg, ecg, bgm, se 등을 세팅
+        SetSound();
     }
 
     void Update()
@@ -119,8 +121,33 @@ public class DialogueBox : MonoBehaviour
         else {tmp_speaker.text = "";}
 
         tmp_content.text = content;
+    }
 
-        // 해당하는 scg, bg, ecg, bgm, se 등을 세팅
+    public void SetSound()
+    {
+        if (bgm != null && bgm != "")
+        {
+            if (System.Enum.TryParse<BGM>(bgm, out BGM bgmEnum))
+            {
+                SoundManager.Instance.PlayBGM(bgmEnum);
+            }
+        }
+        else
+        {
+            SoundManager.Instance.StopBGM();
+        }
+
+        if (se != null && se != "")
+        {
+            if (System.Enum.TryParse<SFX>(se, out SFX sfxEnum))
+            {
+                SoundManager.Instance.PlaySFX(sfxEnum);
+            }
+        }
+        else
+        {
+            SoundManager.Instance.StopSFX();
+        }
     }
 
     public void OnClick()
