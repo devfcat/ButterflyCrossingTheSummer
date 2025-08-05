@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 274187472}
   - component: {fileID: 274187471}
   m_Layer: 5
-  m_Name: ECG_FirstOpen
+  m_Name: ECG_Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -882,7 +882,10 @@ MonoBehaviour:
   m_index: 0
   length: 0
   m_file: {fileID: 4900000, guid: 9f083fe709f19a34fb9803bc51f6c20e, type: 3}
-  m_choiceFile: []
+  m_choiceFile:
+  - {fileID: 4900000, guid: d4af00e9d51bec948baa3dd31d557efc, type: 3}
+  - {fileID: 4900000, guid: a2cfcf6d8e556a646975705b8a396f97, type: 3}
+  - {fileID: 4900000, guid: 569f106bf96b8984aafec3e25fef72b6, type: 3}
   value_dialogue: 0
   list_dialogue: []
 --- !u!1 &519420028
@@ -2130,7 +2133,7 @@ GameObject:
   - component: {fileID: 1138296141}
   - component: {fileID: 1138296140}
   m_Layer: 5
-  m_Name: BG
+  m_Name: BG_ECG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3084,37 +3087,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668240515}
   m_CullTransparentMesh: 1
---- !u!1 &1682452995
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1682452996}
-  m_Layer: 0
-  m_Name: ChapterManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1682452996
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682452995}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1745180899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,6 +3702,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 817783939}
-  - {fileID: 1682452996}
   - {fileID: 815361523}
   - {fileID: 2102625661}
