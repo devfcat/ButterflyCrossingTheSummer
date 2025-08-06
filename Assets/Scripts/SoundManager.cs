@@ -20,8 +20,8 @@ public enum BGM
     Office_Loud = 7,
     BGM_Daily1 = 8,
     BGM_Cute1 = 9,
-
-
+    BGM_Garden2 = 10,
+    BGM_Cute3 = 11,
 }
 
 /// <summary>
@@ -49,7 +49,10 @@ public enum SFX
     SE_Mug = 7,
     SE_OpenBottle = 8,
     SE_Spring = 9,
-    
+    SE_Breath = 10,
+    SE_Grasses = 11,
+    SE_Wind = 12,
+
 }
 
 public class SoundManager : MonoBehaviour
