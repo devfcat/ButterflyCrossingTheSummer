@@ -17,6 +17,9 @@ public enum SCGs
     MSE_Dialogue2 = 8,
     MSE_Normal1 = 9,
     MSE_Normal2 = 10,
+    MHR_Laugh = 11,
+    MHR_EyeLaugh = 12,
+
 }
 
 // 캐릭터 스탠딩 일러스트를 적용하는 매니저

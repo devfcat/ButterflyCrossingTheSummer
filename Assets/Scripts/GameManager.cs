@@ -8,17 +8,9 @@ using UnityEngine.SceneManagement;
 public enum eState
 {
     Main = 0,
-    Chapter1 = 1,
-    Chapter2 = 2,
-}
-
-public enum gameState
-{
-    Default = 0,
-    Setting, // 설정 창창
-    Log, // 로그 창
-    Load, // 파일 로드 창
-    Save, // 파일 세이브 창
+    Chapter1 = 1, // 초반부
+    Chapter2 = 2, // 민하린1
+    Chapter3 = 3, // 시은1
 }
 
 public class GameManager : MonoBehaviour
@@ -41,7 +33,6 @@ public class GameManager : MonoBehaviour
 
     [Header("상태 및 정보")]
     public eState m_State; // 현재 씬 상태
-    public gameState g_State; // 현재 일시정지인가 게임 중인가
     public bool isWorking; // 씬 변경 중인지 또는 로딩 중인지
     public bool isPopupOn; // 팝업이 열려있는가
     public GameObject m_Popup;
@@ -241,8 +232,6 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     IEnumerator Change_Scene(string scenename)
     {
-        g_State = gameState.Default;
-
         Control_Popup(false); // 팝업을 닫음
         // SoundManager.Instance.StopBGM(); // 씬 변경 시 BGM 중지하지 않음
 

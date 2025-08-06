@@ -12,6 +12,11 @@ public enum BG
     CityRoad_Night = 3,
     Park_Night = 4,
     Garden_BG = 5,
+    Office_Day = 6,
+    Station_BG = 7,
+    Bus_BG = 8,
+    Playground_BG = 9,
+    HarinsRoom_BG = 10,
 }
 
 public enum ECG
@@ -20,7 +25,7 @@ public enum ECG
     MHR_ECG1_1 = 1,
     MHR_ECG1_2 = 2,
     MSE_ECG1 = 3,
-
+    MHR_ECG2 = 4,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트

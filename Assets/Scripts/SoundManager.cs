@@ -17,6 +17,10 @@ public enum BGM
     BGM_Grasses = 4,
     BGM_Garden1 = 5,
     Park_Night = 6,
+    Office_Loud = 7,
+    BGM_Daily1 = 8,
+    BGM_Cute1 = 9,
+
 
 }
 
@@ -40,6 +44,12 @@ public enum SFX
     SE_ClickingGlass = 2,
     SE_LighterOn = 3,
     SE_DoorOpen = 4,
+    SE_Punch = 5,
+    SE_EatSnack = 6,
+    SE_Mug = 7,
+    SE_OpenBottle = 8,
+    SE_Spring = 9,
+    
 }
 
 public class SoundManager : MonoBehaviour
