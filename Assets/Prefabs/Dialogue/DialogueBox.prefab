@@ -313,7 +313,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5177326617791502834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a16184e501d00643a94ce9522bbd292, type: 3}
+  m_Script: {fileID: 11500000, guid: eead7493fc70dc3429a5eb57e75fb868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: 
@@ -327,6 +327,7 @@ MonoBehaviour:
   isChoice: 0
   choiceResult: 
   choiceScore: 
+  isChangeSoft: 0
   tmp_speaker: {fileID: 6737183979986589276}
   tmp_content: {fileID: 4450764683813636669}
   arrow: {fileID: 8187373472165600686}

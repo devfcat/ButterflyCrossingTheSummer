@@ -2224,6 +2224,7 @@ GameObject:
   - component: {fileID: 1189462717}
   - component: {fileID: 1189462719}
   - component: {fileID: 1189462718}
+  - component: {fileID: 1189462720}
   m_Layer: 5
   m_Name: SCG
   m_TagString: Untagged
@@ -2247,7 +2248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 160}
+  m_AnchoredPosition: {x: 0, y: 159.99997}
   m_SizeDelta: {x: 4220, y: 7320}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1189462718
@@ -2270,7 +2271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3acc2fbdaaf199d40852c3f6707c934d, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2288,6 +2289,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189462716}
   m_CullTransparentMesh: 1
+--- !u!95 &1189462720
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189462716}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d79a01d5f9e9cdb49b340e56be831e65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1197198916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,8 +3534,8 @@ GameObject:
   - component: {fileID: 2102625660}
   - component: {fileID: 2102625659}
   - component: {fileID: 2102625658}
-  - component: {fileID: 2102625663}
   - component: {fileID: 2102625662}
+  - component: {fileID: 2102625663}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -3649,9 +3671,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102625657}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eabbb715e655c394287b88d2c0f02f72, type: 3}
+  m_Script: {fileID: 11500000, guid: 8209c2a2c4ca955408354a1d87f78301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_scg: 0
+  scg_image: {fileID: 1189462718}
+  scg_list:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 5000da01f01777448aebcc5f806a4cb8, type: 3}
+  - {fileID: 21300000, guid: 146a040d05dd99e4fad71e78d2535d96, type: 3}
+  - {fileID: 21300000, guid: 7e9e838a269afa54fa07af8fc5a68a8d, type: 3}
+  - {fileID: 21300000, guid: 54da98e5f904d8b478aa7ebf3f9e5077, type: 3}
+  - {fileID: 21300000, guid: 4c2b2183018af2f48a5dd5c849cc9eca, type: 3}
+  - {fileID: 21300000, guid: 339ca10b41bf85b41917404b9919448c, type: 3}
+  - {fileID: 21300000, guid: 73993980d502fa34fa412e751b58f19d, type: 3}
+  - {fileID: 21300000, guid: 61b7168169540ab46a457a49f9e5022f, type: 3}
+  - {fileID: 21300000, guid: 8de134726de1ccb4492aa661255109b9, type: 3}
+  - {fileID: 21300000, guid: 325c64b7b9af1494e8bb816d2e64a2bc, type: 3}
+  animator: {fileID: 1189462720}
 --- !u!1001 &3027230339235012565
 PrefabInstance:
   m_ObjectHideFlags: 0
