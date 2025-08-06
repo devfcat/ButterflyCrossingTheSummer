@@ -7,11 +7,18 @@ using UnityEngine;
 /// </summary>
 public class SaveDataCell
 {
-    public string name;
     public string date;
     public int chapter;
     public int dialogueIndex; // 몇 번째 대사를 보고 있었는지
     public int score; // 호감도 등 엔딩에 영향을 주는 데이터
+    
+    /// <summary>
+    /// 선택지 이후 대사를 로드한 장면인가
+    /// </summary>
+    public bool isChoiceChapter; // 선택지 이후 대사를 로드한 장면인가
+    public int? choiceFileIndex; // 선택지 이후 대사를 로드한 파일의 인덱스
+    public int? choiceDialogueIndex; // 선택지 이후 대사를 로드한 파일의 인덱스
+
 }
 
 /// <summary>
