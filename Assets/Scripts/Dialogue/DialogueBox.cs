@@ -144,6 +144,9 @@ public class DialogueBox : MonoBehaviour
             Debug.Log($"bg가 '{bg}'이므로 SetBG 호출");
             BGECG.Instance.SetBG(bg, isChangeSoft);
         }
+
+        // scg가 null이거나 빈 문자열이면 빈 문자열로 전달
+        SCG.Instance.SetSCG(scg ?? "", isChangeSoft);
     }
 
     public void SetSound()
