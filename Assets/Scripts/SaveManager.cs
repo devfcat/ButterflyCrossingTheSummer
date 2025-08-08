@@ -23,8 +23,8 @@ public class SaveData
     public string chapter_name;
     public int dialogueIndex;
     public bool isChoiceChapter;
-    public int? choiceFileIndex;
-    public int? choiceDialogueIndex;
+    public int choiceFileIndex;
+    public int choiceDialogueIndex;
 }
 
 /// <summary>
@@ -104,7 +104,7 @@ public class SaveManager : MonoBehaviour
         m_data.dialogueIndex = DialogueManager.Instance.m_index;
 
         m_data.isChoiceChapter = DialogueManager.Instance.isReadAddedDialogue; // 선택지 대사 볼 때 true
-        m_data.choiceFileIndex = DialogueManager.Instance.m_index; // 로드해야 하는 선택지 파일의 인덱스
+        m_data.choiceFileIndex = DialogueManager.Instance.m_choiceFileIndex; // 로드해야 하는 선택지 파일의 인덱스
         m_data.choiceDialogueIndex = DialogueManager.Instance.m_addedIndex; // 로드해야 하는 선택지 대사의 인덱스
 
         return m_data;
@@ -166,6 +166,19 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    // 가장 최근 세이브 데이터를 로드함
+    public void OnLoad_RecentData()
+    {
+        if (saveDatas.Count > 0)
+        {
+            m_saveData = saveDatas[saveDatas.Count - 1];
+        }
+        else
+        {
+            m_saveData = null;
+        }
+    }
+
     // 게임 시작 로드
     public void OnLoad_Data(SaveCell target)
     {
@@ -176,7 +189,7 @@ public class SaveManager : MonoBehaviour
     public void Save_Data()
     { 
         Load_Data();
-        
+
         m_saveData = Get_Data();
         saveDatas.Add(m_saveData);
 

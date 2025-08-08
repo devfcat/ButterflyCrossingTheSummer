@@ -72,10 +72,10 @@ public class DialogueManager : MonoBehaviour
             m_index = saveData.dialogueIndex != 0 ? saveData.dialogueIndex : 0;
             
             // 선택지 대화 인덱스 로드
-            m_addedIndex = saveData.choiceDialogueIndex ?? 0;
+            m_addedIndex = saveData.choiceDialogueIndex ;
             
             // 선택지 파일 인덱스 로드
-            m_choiceFileIndex = saveData.choiceFileIndex ?? 0;
+            m_choiceFileIndex = saveData.choiceFileIndex;
             
             // 선택지 챕터 여부 설정
             isReadAddedDialogue = saveData.isChoiceChapter;
@@ -204,12 +204,8 @@ public class DialogueManager : MonoBehaviour
                 script.ecg = bookData.dialogues[i].ecg;
                 script.isChangeSoft = bookData.dialogues[i].isChangeSoftBool;
 
-                                 // 디버그: ChoiceBox 데이터 설정 확인 (로그 제거)
-
                 // 데이터 설정 완료 플래그 설정
                 script.isDataSet = true;
-
-                // script.SetUI();
             }
             else // 선택지 데이터가 아닌가
             {
@@ -239,8 +235,6 @@ public class DialogueManager : MonoBehaviour
 
                 // 데이터 설정 완료 플래그 설정
                 script.isDataSet = true;
-
-                // script.SetUI();
             }
         }
 
@@ -312,12 +306,12 @@ public class DialogueManager : MonoBehaviour
             }
         }
         
-                 // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
-         if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
-         {
-             LogManager.Instance.Add_Log(list_dialogue[m_index].content, list_dialogue[m_index].speaker);
-             LogManager.Instance.Make_LogUI();
-         }
+        // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
+        if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
+        {
+            LogManager.Instance.Add_Log(list_dialogue[m_index].content, list_dialogue[m_index].speaker);
+            LogManager.Instance.Make_LogUI();
+        }
 
          // 이어하기를 위해 이미지와 사운드 설정
          SetCurrentDialogueUI();
@@ -364,12 +358,12 @@ public class DialogueManager : MonoBehaviour
             }
         }
         
-                 // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
-         if (m_addedIndex < list_addedDialogue.Count && !list_addedDialogue[m_addedIndex].isChoiceBool)
-         {
-             LogManager.Instance.Add_Log(list_addedDialogue[m_addedIndex].content, list_addedDialogue[m_addedIndex].speaker);
-             LogManager.Instance.Make_LogUI();
-         }
+        // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
+        if (m_addedIndex < list_addedDialogue.Count && !list_addedDialogue[m_addedIndex].isChoiceBool)
+        {
+            LogManager.Instance.Add_Log(list_addedDialogue[m_addedIndex].content, list_addedDialogue[m_addedIndex].speaker);
+            LogManager.Instance.Make_LogUI();
+        }
 
          // 이어하기를 위해 이미지와 사운드 설정
          SetCurrentAddedDialogueUI();
@@ -424,6 +418,8 @@ public class DialogueManager : MonoBehaviour
     // 선택지 이후 대사창을을 생성하고 띄움
     public IEnumerator Add_Dialogues(int choiceFileIndex)
     {
+        // 선택지 이후의 파일에 대한 정보를 저장한다
+        m_choiceFileIndex = choiceFileIndex;
         isReadAddedDialogue = true;
         
         // 선택지 인덱스에 해당하는 텍스트 파일 사용
@@ -498,60 +494,58 @@ public class DialogueManager : MonoBehaviour
 
             // 데이터 설정 완료 플래그 설정
             script.isDataSet = true;
-
-            // script.SetUI();
         }
 
         // 현재 선택지를 닫는다
         my_dialogues[m_index].SetActive(false);
         
-                 // 그리고 선택지에 의해 생성된 대사의 첫 창을 띄움
-         StartCoroutine(Open_AddedDialogue());
+        // 그리고 선택지에 의해 생성된 대사의 첫 창을 띄움
+        StartCoroutine(Open_AddedDialogue());
 
-         yield return null;
+        yield return null;
      }
 
      /// <summary>
      /// 현재 대화창의 UI를 설정하는 메서드 (이어하기용)
      /// </summary>
-     private void SetCurrentDialogueUI()
-     {
-         if (m_index >= list_dialogue.Count) return;
-         
-         // 선택지 타입인지 확인
-         if (list_dialogue[m_index].isChoiceBool)
-         {
-             var choiceBox = my_dialogues[m_index].GetComponent<ChoiceBox>();
-             if (choiceBox != null)
-             {
-                 choiceBox.SetUI();
-                 choiceBox.SetSound();
-             }
-         }
-         else
-         {
-             var dialogueBox = my_dialogues[m_index].GetComponent<DialogueBox>();
-             if (dialogueBox != null)
-             {
-                 dialogueBox.SetUI();
-                 dialogueBox.SetSound();
-             }
-         }
-     }
+    private void SetCurrentDialogueUI()
+    {
+        if (m_index >= list_dialogue.Count) return;
+        
+        // 선택지 타입인지 확인
+        if (list_dialogue[m_index].isChoiceBool)
+        {
+            var choiceBox = my_dialogues[m_index].GetComponent<ChoiceBox>();
+            if (choiceBox != null)
+            {
+                choiceBox.SetUI();
+                choiceBox.SetSound();
+            }
+        }
+        else
+        {
+            var dialogueBox = my_dialogues[m_index].GetComponent<DialogueBox>();
+            if (dialogueBox != null)
+            {
+                dialogueBox.SetUI();
+                dialogueBox.SetSound();
+            }
+        }
+    }
 
-     /// <summary>
-     /// 현재 선택지 이후 대화창의 UI를 설정하는 메서드 (이어하기용)
-     /// </summary>
-     private void SetCurrentAddedDialogueUI()
-     {
-         if (m_addedIndex < my_addedDialogues.Count && my_addedDialogues[m_addedIndex] != null)
-         {
-             var dialogueBox = my_addedDialogues[m_addedIndex].GetComponent<DialogueBox>();
-             if (dialogueBox != null)
-             {
-                 dialogueBox.SetUI();
-                 dialogueBox.SetSound();
-             }
-         }
-     }
- }
+    /// <summary>
+    /// 현재 선택지 이후 대화창의 UI를 설정하는 메서드 (이어하기용)
+    /// </summary>
+    private void SetCurrentAddedDialogueUI()
+    {
+        if (m_addedIndex < my_addedDialogues.Count && my_addedDialogues[m_addedIndex] != null)
+        {
+            var dialogueBox = my_addedDialogues[m_addedIndex].GetComponent<DialogueBox>();
+            if (dialogueBox != null)
+            {
+                dialogueBox.SetUI();
+                dialogueBox.SetSound();
+            }
+        }
+    }
+}

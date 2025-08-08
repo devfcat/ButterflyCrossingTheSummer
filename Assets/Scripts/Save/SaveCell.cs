@@ -17,8 +17,8 @@ public class SaveCell : MonoBehaviour
     /// 선택지 이후 대사를 로드한 장면인가 (챕터 1에만 선택지 분기 있음)
     /// </summary>
     public bool isChoiceChapter; // 선택지 이후 대사를 로드한 장면인가
-    public int? choiceFileIndex; // 선택지 이후 대사를 로드한 파일의 인덱스
-    public int? choiceDialogueIndex; // 선택지 이후 로드된 추가 대사의 인덱스
+    public int choiceFileIndex; // 선택지 이후 대사를 로드한 파일의 인덱스
+    public int choiceDialogueIndex; // 선택지 이후 로드된 추가 대사의 인덱스
 
     public TextMeshProUGUI dateText;
     public TextMeshProUGUI chapterNameText;
