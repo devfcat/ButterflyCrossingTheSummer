@@ -255,6 +255,12 @@ public class SoundManager : MonoBehaviour
     /// <param name="bgm">재생할 Bgm 파일 인덱스</param>
     public void PlayBGM(BGM bgm)
     {
+        // 현재 재생 중인 BGM과 같은 BGM이면 재생하지 않음
+        if (bgmPlayer.clip == bgmList[(int)bgm] && bgmPlayer.isPlaying)
+        {
+            return;
+        }
+        
         bgmPlayer.clip = bgmList[(int)bgm];
         if (bgmPlayer.volume > 0) BgmControl(BgmStatus.Play); // 음소거 시 클립 설정 후 재생하지 않음
     }
