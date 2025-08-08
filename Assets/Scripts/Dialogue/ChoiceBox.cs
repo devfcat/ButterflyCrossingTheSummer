@@ -22,6 +22,7 @@ public class ChoiceBox : MonoBehaviour
     void OnEnable()
     {
         SetUI();
+        SetSound();
     }
 
     public void SetUI()
@@ -56,6 +57,29 @@ public class ChoiceBox : MonoBehaviour
                 tmp_contents[i].gameObject.SetActive(false);
                 boxes[i].SetActive(false);
             }
+        }
+    }
+
+    public void SetSound()
+    {
+        if (bgm != null && bgm != "")
+        {
+            if (System.Enum.TryParse<BGM>(bgm, out BGM bgmEnum))
+            {
+                SoundManager.Instance.PlayBGM(bgmEnum);
+            }
+        }
+
+        if (se != null && se != "")
+        {
+            if (System.Enum.TryParse<SFX>(se, out SFX sfxEnum))
+            {
+                SoundManager.Instance.PlaySFX(sfxEnum);
+            }
+        }
+        else
+        {
+            SoundManager.Instance.StopSFX();
         }
     }
 

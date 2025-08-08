@@ -158,10 +158,11 @@ public class DialogueBox : MonoBehaviour
                 SoundManager.Instance.PlayBGM(bgmEnum);
             }
         }
-        else
-        {
-            SoundManager.Instance.StopBGM();
-        }
+        // BGM이 비어있을 때는 기존 BGM을 유지 (선택지 이후 대사에서 BGM이 없으면 기존 BGM 유지)
+        // else
+        // {
+        //     SoundManager.Instance.StopBGM();
+        // }
 
         if (se != null && se != "")
         {
