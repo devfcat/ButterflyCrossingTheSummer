@@ -33,12 +33,36 @@ public class DialogueBox : MonoBehaviour
     public ParserName parser;
     private bool isTextEnd; // 모든 텍스트가 출력되었는가?
     private bool isAutoCoroutineRunning = false;
+    private bool isInitialized = false; // 초기화 완료 플래그
+    public bool isDataSet = false; // 데이터가 설정되었는지 확인하는 플래그
 
     void OnEnable()
     {
+        // 데이터가 설정되지 않았으면 초기화하지 않음
+        if (!isDataSet)
+        {
+            return;
+        }
+        
+        // 이미 초기화되어 있으면 중복 호출 방지
+        if (isInitialized)
+        {
+            return;
+        }
+        
         SetUI();
         // 해당하는 scg, bg, ecg, bgm, se 등을 세팅
         SetSound();
+        
+        isInitialized = true;
+    }
+
+    void OnDisable()
+    {
+        // 비활성화될 때 플래그 리셋
+        isInitialized = false;
+        isAutoCoroutineRunning = false;
+        // isDataSet은 리셋하지 않음 (데이터는 유지)
     }
 
     void Update()
@@ -122,11 +146,13 @@ public class DialogueBox : MonoBehaviour
 
         tmp_content.text = content;
 
-        Debug.Log($"DialogueBox.SetUI - bg: '{bg}', speaker: '{speaker}'");
+        // scg가 null이거나 빈 문자열이면 빈 문자열로 전달
+        SCG.Instance.SetSCG(scg ?? "", isChangeSoft);
 
         if (ecg != null && ecg != "")
         {
             BGECG.Instance.SetECG(ecg);
+            return;
         }
         else
         {
@@ -144,9 +170,6 @@ public class DialogueBox : MonoBehaviour
             Debug.Log($"bg가 '{bg}'이므로 SetBG 호출");
             BGECG.Instance.SetBG(bg, isChangeSoft);
         }
-
-        // scg가 null이거나 빈 문자열이면 빈 문자열로 전달
-        SCG.Instance.SetSCG(scg ?? "", isChangeSoft);
     }
 
     public void SetSound()
@@ -158,11 +181,6 @@ public class DialogueBox : MonoBehaviour
                 SoundManager.Instance.PlayBGM(bgmEnum);
             }
         }
-        // BGM이 비어있을 때는 기존 BGM을 유지 (선택지 이후 대사에서 BGM이 없으면 기존 BGM 유지)
-        // else
-        // {
-        //     SoundManager.Instance.StopBGM();
-        // }
 
         if (se != null && se != "")
         {

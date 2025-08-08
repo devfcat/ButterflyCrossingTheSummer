@@ -6,12 +6,18 @@ using TMPro;
 public class ChoiceBox : MonoBehaviour
 {
     public string content;
-    public string bgm;
-    public string? se;
-    public bool fade;
-    public bool isChoice;
-    public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
-    public string? choiceScore;
+     public string bgm;
+     public string? se;
+     public bool fade;
+     public bool isChoice;
+     public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
+     public string? choiceScore;
+     
+     // 이미지 관련 필드 추가
+     public string? scg;
+     public string bg;
+     public string? ecg;
+     public bool isChangeSoft; // scg와 bg가 부드럽게 바뀌는가 (서서히 나타남)
 
     public List<string> contents;
 
@@ -19,10 +25,28 @@ public class ChoiceBox : MonoBehaviour
     public List<TextMeshProUGUI> tmp_contents;
     public List<GameObject> boxes;
 
+    [Header("내부 기능 요소")]
+    private bool isInitialized = false; // 초기화 완료 플래그
+    public bool isDataSet = false; // 데이터가 설정되었는지 확인하는 플래그
+
     void OnEnable()
     {
+        // 데이터가 설정되지 않았으면 초기화하지 않음
+        if (!isDataSet)
+        {
+            return;
+        }
+        
+        // 이미 초기화되어 있으면 중복 호출 방지
+        if (isInitialized)
+        {
+            return;
+        }
+        
         SetUI();
         SetSound();
+        
+        isInitialized = true;
     }
 
     public void SetUI()
@@ -58,7 +82,32 @@ public class ChoiceBox : MonoBehaviour
                 boxes[i].SetActive(false);
             }
         }
-    }
+
+        // scg가 null이거나 빈 문자열이면 빈 문자열로 전달
+        SCG.Instance.SetSCG(scg ?? "", isChangeSoft);
+
+        if (ecg != null && ecg != "")
+        {
+            BGECG.Instance.SetECG(ecg);
+            return;
+        }
+        else
+        {
+            BGECG.Instance.ClearECG();
+        }
+
+        if (bg == "" || bg == null)
+        {
+            Debug.Log("bg가 빈 문자열이므로 ClearBG 호출");
+            if (ecg != "" && ecg != null) {}
+            else {BGECG.Instance.ClearBG();}
+        }
+        else
+        {
+            Debug.Log($"bg가 '{bg}'이므로 SetBG 호출");
+            BGECG.Instance.SetBG(bg, isChangeSoft);
+        }
+     }
 
     public void SetSound()
     {
@@ -99,5 +148,12 @@ public class ChoiceBox : MonoBehaviour
         {
             DialogueManager.Instance.NextPage();
         }
+    }
+
+    void OnDisable()
+    {
+        // 비활성화될 때 플래그 리셋
+        isInitialized = false;
+        // isDataSet은 리셋하지 않음 (데이터는 유지)
     }
 }
