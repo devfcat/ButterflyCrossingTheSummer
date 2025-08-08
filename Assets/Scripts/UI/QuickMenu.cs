@@ -10,6 +10,11 @@ public class QuickMenu : MonoBehaviour
 {
     [SerializeField] private bool isOpen; // 퀵메뉴 온인지 판별
     private Animator animator;
+    
+    [Header("저장 버튼 쿨다운")]
+    [SerializeField] private Button saveButton; // 저장 버튼
+    [SerializeField] private Image saveButtonImage; // 저장 버튼 이미지
+    private bool isSaveCooldown = false; // 저장 쿨다운 상태
 
     void OnEnable()
     {
@@ -92,5 +97,50 @@ public class QuickMenu : MonoBehaviour
     public void OnClick_Audio()
     {
         QuickMenuManager.Instance.Control_Audio();
+    }
+
+    public void OnClick_Load()
+    {
+        GameManager.Instance.Control_Load(true);
+    }
+
+    public void OnClick_Save()
+    {
+        // 쿨다운 중이면 저장하지 않음
+        if (isSaveCooldown)
+        {
+            return;
+        }
+        
+        SoundManager.Instance.PlaySFX(SFX.UI);
+        SaveManager.Instance.Save_Data();
+        GameManager.Instance.Control_Popup(true, GameManager.Instance.m_Popup_Saved);
+        
+        // 쿨다운 시작
+        StartCoroutine(SaveCooldown());
+    }
+    
+    /// <summary>
+    /// 저장 버튼 쿨다운 코루틴
+    /// </summary>
+    private IEnumerator SaveCooldown()
+    {
+        isSaveCooldown = true;
+        
+        
+        if (saveButtonImage != null)
+        {
+            saveButtonImage.color = Color.gray;
+        }
+        
+        // 1초 대기
+        yield return new WaitForSeconds(1f);
+        
+        if (saveButtonImage != null)
+        {
+            saveButtonImage.color = Color.white;
+        }
+        
+        isSaveCooldown = false;
     }
 }
