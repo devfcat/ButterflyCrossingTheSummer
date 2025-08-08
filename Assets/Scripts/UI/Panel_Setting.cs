@@ -9,7 +9,8 @@ public class Panel_Setting : MonoBehaviour
     public Slider BgmSlider;
     public Slider SfxSlider;
 
-    // [Header("설정 패널의 버튼들")]
+    [Header("설정 패널의 버튼들")]
+    public GameObject BTN_Save;
 
     void OnEnable()
     {
@@ -20,6 +21,15 @@ public class Panel_Setting : MonoBehaviour
     {
         Set_UI_Slider();
         DisplaySetting.Instance.Init();
+
+        if (GameManager.Instance.m_State != eState.Main)
+        {
+            BTN_Save.SetActive(true);
+        }
+        else
+        {
+            BTN_Save.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -34,5 +44,12 @@ public class Panel_Setting : MonoBehaviour
     public void Close()
     {
         GameManager.Instance.Control_Popup(false);
+    }
+
+    public void OnClick_Save_And_Close()
+    {
+        SaveManager.Instance.Save_Data();
+        GameManager.Instance.Control_Popup(false);
+        GameManager.Instance.SetState(eState.Main);
     }
 }
