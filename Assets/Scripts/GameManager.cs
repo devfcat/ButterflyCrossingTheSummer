@@ -36,7 +36,10 @@ public class GameManager : MonoBehaviour
     public bool isWorking; // 씬 변경 중인지 또는 로딩 중인지
     public bool isPopupOn; // 팝업이 열려있는가
     public GameObject m_Popup;
+    public GameObject m_Popup_Saved;
+    public GameObject m_Popup_Delete;
 
+    public GameObject Panel_Load;
     public GameObject Panel_Loading;
 
     [Header("설정 패널들")]
@@ -120,16 +123,6 @@ public class GameManager : MonoBehaviour
         Panel_FadeOut.SetActive(true);
     }
 
-    public void Load()
-    {
-        
-    }
-
-    public void Save()
-    {
-
-    }
-
     public void Update()
     {
 #if UNITY_EDITOR
@@ -161,6 +154,13 @@ public class GameManager : MonoBehaviour
             if (Panel_Loading.activeSelf) Panel_Loading.SetActive(false);
         }
     }
+    
+    // 세이브 패널 제어
+    public void Control_Load(bool on)
+    {
+        SoundManager.Instance.PlaySFX(SFX.UI);
+        Panel_Load.SetActive(on);
+    }
 
     // 설정창 제어
     public void Control_Setting()
@@ -176,11 +176,11 @@ public class GameManager : MonoBehaviour
     }
 
     // 팝업을 관리하는 메서드
-    public void Control_Popup(bool on, GameObject b = null)
+    public void Control_Popup(bool on, GameObject b = null, bool sfx = true)
     {
+        if (sfx) SoundManager.Instance.PlaySFX(SFX.UI);
         if(m_Popup != null && m_Popup.activeSelf) // 이전에 켜진 팝업이 있는데 다른 팝업을 켤 경우 끔
         {
-            SoundManager.Instance.PlaySFX(SFX.UI);
             m_Popup.SetActive(false);
             isPopupOn = false;
             return;
@@ -189,14 +189,11 @@ public class GameManager : MonoBehaviour
         isPopupOn = on;
         if (on)
         {
-            SoundManager.Instance.PlaySFX(SFX.UI);
-
             m_Popup = b;
             m_Popup.SetActive(true);
         }
         else if (m_Popup != null)
         {
-            SoundManager.Instance.PlaySFX(SFX.UI);
             m_Popup.SetActive(false);
         }
     }
@@ -233,7 +230,7 @@ public class GameManager : MonoBehaviour
     IEnumerator Change_Scene(string scenename)
     {
         Control_Popup(false); // 팝업을 닫음
-        // SoundManager.Instance.StopBGM(); // 씬 변경 시 BGM 중지하지 않음
+        SoundManager.Instance.StopBGM(); 
 
         yield return StartCoroutine(Fade()); // 창 어둡게
 
