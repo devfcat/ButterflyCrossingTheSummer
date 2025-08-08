@@ -26,6 +26,7 @@ public enum ECG
     MHR_ECG1_2 = 2,
     MSE_ECG1 = 3,
     MHR_ECG2 = 4,
+    MSE_ECG2 = 5,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트

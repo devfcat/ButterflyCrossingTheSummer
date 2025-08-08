@@ -19,6 +19,9 @@ public enum SCGs
     MSE_Normal2 = 10,
     MHR_Laugh = 11,
     MHR_EyeLaugh = 12,
+    MSE_DialogueLaugh = 13,
+    MSE_EyeLaugh = 14,
+    MSE_Eyemove = 15,
 
 }
 
