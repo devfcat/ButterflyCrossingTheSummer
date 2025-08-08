@@ -57,18 +57,21 @@ public class SCG : MonoBehaviour
         {
             m_scg = SCGs.None;
             animator.SetBool("isActive", false);
+            Debug.Log("scg가 null이므로 SetSCG 종료");
             return;
         }
 
         // Enum.TryParse를 사용하여 안전하게 파싱
         if (Enum.TryParse<SCGs>(scg, out SCGs newScg))
         {
+            /*
             // 이전 scg와 동일하면 return   
             if (m_scg == newScg)
             {
                 return;
             }
-            
+            */
+
             m_scg = newScg;
             
             animator.SetBool("isChangeSoft", isChangeSoft);

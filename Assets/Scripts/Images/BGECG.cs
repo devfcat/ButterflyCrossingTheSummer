@@ -16,7 +16,7 @@ public enum BG
     Station_BG = 7,
     Bus_BG = 8,
     Playground_BG = 9,
-    HarinsRoom_BG = 10,
+    HarinsRoom_BG = 10
 }
 
 public enum ECG
@@ -60,22 +60,30 @@ public class BGECG : MonoBehaviour
 
     void Start()
     {
-        ClearBG(); // 시작할 때 배경을 지우지 않음
-        ClearECG();
+        //ClearBG(); // 시작할 때 배경을 지우지 않음
+        //ClearECG();
     }
 
     public void SetBG(string bg, bool isChangeSoft = false)
     {
+        // 만약 ecg가 있다면 배경을 지우지 않고 ecg를 넣음
+        if (m_ecg != ECG.None)
+        {
+            return;
+        }
+
         Debug.Log($"SetBG 호출됨 - bg: {bg}, isChangeSoft: {isChangeSoft}, 현재 m_bg: {m_bg}");
         
         if (System.Enum.TryParse<BG>(bg, out BG bgEnum))
         {
             // 이전 배경과 동일하면 return
+            /*
             if (m_bg == bgEnum)
             {
                 Debug.Log($"이전 배경과 동일하므로 SetBG 종료: {bgEnum}");
                 return;
             }
+            */
             
             m_bg = bgEnum;
             
@@ -137,19 +145,13 @@ public class BGECG : MonoBehaviour
                 flash = true;
             }
 
-            // 이전 ECG와 동일하면 return
-            if (m_ecg == ecgEnum)
-            {
-                return;
-            }
-            
             m_ecg = ecgEnum;
 
             int index = (int)ecgEnum;
             if (index >= 0 && index < ecg_list.Count)
             {
-                m_bg = BG.None; // ECG가 적용되어 있으므로 초기화.
                 bg_image.sprite = ecg_list[index];
+                animator.SetBool("isActive", true);
                 ecg_animation_image.sprite = ecg_list[index];
             }
 

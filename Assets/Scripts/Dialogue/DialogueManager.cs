@@ -63,10 +63,31 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        m_index = 0; // 추후 로드 시스템 생기면 여기에 로드한 인덱스 값 넣기
-        m_addedIndex = 0;
-        isReadAddedDialogue = false;
-        m_choiceFileIndex = 0; // 만약 로드했을 때 선택지 파일 인덱스가 있으면 여기에 넣기
+        // 세이브 데이터가 있으면 로드, 없으면 기본값 설정
+        if (SaveManager.Instance.m_saveData != null)
+        {
+            var saveData = SaveManager.Instance.m_saveData;
+            
+            // 대화 인덱스 로드 (0이 아닐 때만)
+            m_index = saveData.dialogueIndex != 0 ? saveData.dialogueIndex : 0;
+            
+            // 선택지 대화 인덱스 로드
+            m_addedIndex = saveData.choiceDialogueIndex ?? 0;
+            
+            // 선택지 파일 인덱스 로드
+            m_choiceFileIndex = saveData.choiceFileIndex ?? 0;
+            
+            // 선택지 챕터 여부 설정
+            isReadAddedDialogue = saveData.isChoiceChapter;
+        }
+        else
+        {
+            // 기본값 설정
+            m_index = 0;
+            m_addedIndex = 0;
+            m_choiceFileIndex = 0;
+            isReadAddedDialogue = false;
+        }
 
         Load_Dialogue(); // 기본 대화 파일을 모두 로드한다.
     }
@@ -176,12 +197,24 @@ public class DialogueManager : MonoBehaviour
                 script.isChoice = bookData.dialogues[i].isChoiceBool;
                 script.choiceResult = bookData.dialogues[i].choiceResult;
                 script.choiceScore = bookData.dialogues[i].choiceScore;
+                
+                // 이미지 데이터 설정
+                script.scg = bookData.dialogues[i].scg;
+                script.bg = bookData.dialogues[i].bg;
+                script.ecg = bookData.dialogues[i].ecg;
+                script.isChangeSoft = bookData.dialogues[i].isChangeSoftBool;
+
+                                 // 디버그: ChoiceBox 데이터 설정 확인 (로그 제거)
+
+                // 데이터 설정 완료 플래그 설정
+                script.isDataSet = true;
 
                 // script.SetUI();
             }
             else // 선택지 데이터가 아닌가
             {
                 my_dialogues[i] = Instantiate(dialoguePrefab, this.transform);
+                // setactive되면 안됨.
                 my_dialogues[i].SetActive(false);
 
                 var script = my_dialogues[i].GetComponent<DialogueBox>();
@@ -203,6 +236,9 @@ public class DialogueManager : MonoBehaviour
                     script.fadeTime = bookData.dialogues[i].fadeTimeFloat;
                 }
                 script.isChangeSoft = bookData.dialogues[i].isChangeSoftBool;
+
+                // 데이터 설정 완료 플래그 설정
+                script.isDataSet = true;
 
                 // script.SetUI();
             }
@@ -257,25 +293,36 @@ public class DialogueManager : MonoBehaviour
             }
             if (m_index < my_dialogues.Count)
             {
-                my_dialogues[m_index].SetActive(true);
+                // 이미 활성화되어 있는지 확인
+                if (!my_dialogues[m_index].activeSelf)
+                {
+                    my_dialogues[m_index].SetActive(true);
+                }
             }
         }
         else 
         {
             if (m_index < my_dialogues.Count)
             {
-                my_dialogues[m_index].SetActive(true); // 첫 시작
+                // 이미 활성화되어 있는지 확인
+                if (!my_dialogues[m_index].activeSelf)
+                {
+                    my_dialogues[m_index].SetActive(true); // 첫 시작
+                }
             }
         }
         
-        // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
-        if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
-        {
-            LogManager.Instance.Add_Log(list_dialogue[m_index].content, list_dialogue[m_index].speaker);
-            LogManager.Instance.Make_LogUI();
-        }
+                 // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
+         if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
+         {
+             LogManager.Instance.Add_Log(list_dialogue[m_index].content, list_dialogue[m_index].speaker);
+             LogManager.Instance.Make_LogUI();
+         }
 
-        yield return null;
+         // 이어하기를 위해 이미지와 사운드 설정
+         SetCurrentDialogueUI();
+
+         yield return null;
     }
 
     // 대사창 흐름에 맞게 선택지 이후 대사창을 띄움
@@ -301,22 +348,33 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log($"선택지 이후 대사 {m_addedIndex}번째로 이동");
             my_addedDialogues[m_addedIndex-1].SetActive(false);
-            my_addedDialogues[m_addedIndex].SetActive(true);
+            // 이미 활성화되어 있는지 확인
+            if (!my_addedDialogues[m_addedIndex].activeSelf)
+            {
+                my_addedDialogues[m_addedIndex].SetActive(true);
+            }
         }
         else 
         {
             Debug.Log("선택지 이후 대사 첫 번째 시작");
-            my_addedDialogues[m_addedIndex].SetActive(true); // 첫 시작
+            // 이미 활성화되어 있는지 확인
+            if (!my_addedDialogues[m_addedIndex].activeSelf)
+            {
+                my_addedDialogues[m_addedIndex].SetActive(true); // 첫 시작
+            }
         }
         
-        // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
-        if (m_addedIndex < list_addedDialogue.Count && !list_addedDialogue[m_addedIndex].isChoiceBool)
-        {
-            LogManager.Instance.Add_Log(list_addedDialogue[m_addedIndex].content, list_addedDialogue[m_addedIndex].speaker);
-            LogManager.Instance.Make_LogUI();
-        }
+                 // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
+         if (m_addedIndex < list_addedDialogue.Count && !list_addedDialogue[m_addedIndex].isChoiceBool)
+         {
+             LogManager.Instance.Add_Log(list_addedDialogue[m_addedIndex].content, list_addedDialogue[m_addedIndex].speaker);
+             LogManager.Instance.Make_LogUI();
+         }
 
-        yield return null;
+         // 이어하기를 위해 이미지와 사운드 설정
+         SetCurrentAddedDialogueUI();
+
+         yield return null;
     }
 
     // 마지막 대사창을 본 후의 처리 (이번 씬에서 전체 리스트를 다 봤을 때)
@@ -438,15 +496,62 @@ public class DialogueManager : MonoBehaviour
             }
             script.isChangeSoft = choiceBookData.dialogues[i].isChangeSoftBool;
 
+            // 데이터 설정 완료 플래그 설정
+            script.isDataSet = true;
+
             // script.SetUI();
         }
 
         // 현재 선택지를 닫는다
         my_dialogues[m_index].SetActive(false);
         
-        // 그리고 선택지에 의해 생성된 대사의 첫 창을 띄움
-        StartCoroutine(Open_AddedDialogue());
+                 // 그리고 선택지에 의해 생성된 대사의 첫 창을 띄움
+         StartCoroutine(Open_AddedDialogue());
 
-        yield return null;
-    }
-}
+         yield return null;
+     }
+
+     /// <summary>
+     /// 현재 대화창의 UI를 설정하는 메서드 (이어하기용)
+     /// </summary>
+     private void SetCurrentDialogueUI()
+     {
+         if (m_index >= list_dialogue.Count) return;
+         
+         // 선택지 타입인지 확인
+         if (list_dialogue[m_index].isChoiceBool)
+         {
+             var choiceBox = my_dialogues[m_index].GetComponent<ChoiceBox>();
+             if (choiceBox != null)
+             {
+                 choiceBox.SetUI();
+                 choiceBox.SetSound();
+             }
+         }
+         else
+         {
+             var dialogueBox = my_dialogues[m_index].GetComponent<DialogueBox>();
+             if (dialogueBox != null)
+             {
+                 dialogueBox.SetUI();
+                 dialogueBox.SetSound();
+             }
+         }
+     }
+
+     /// <summary>
+     /// 현재 선택지 이후 대화창의 UI를 설정하는 메서드 (이어하기용)
+     /// </summary>
+     private void SetCurrentAddedDialogueUI()
+     {
+         if (m_addedIndex < my_addedDialogues.Count && my_addedDialogues[m_addedIndex] != null)
+         {
+             var dialogueBox = my_addedDialogues[m_addedIndex].GetComponent<DialogueBox>();
+             if (dialogueBox != null)
+             {
+                 dialogueBox.SetUI();
+                 dialogueBox.SetSound();
+             }
+         }
+     }
+ }
