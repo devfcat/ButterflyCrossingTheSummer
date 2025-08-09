@@ -129,8 +129,7 @@ public class SaveManager : MonoBehaviour
                     {
                         string wrappedJson = "{\"saveDatas\":" + json + "}";
                         SaveDataWrapper wrapper = JsonUtility.FromJson<SaveDataWrapper>(wrappedJson);
-                        // SaveData를 SaveCell로 변환
-                        saveDatas = new List<SaveCell>();
+                        saveDatas.Clear();
                         if (wrapper.saveDatas != null)
                         {
                             foreach (var data in wrapper.saveDatas)
@@ -154,7 +153,7 @@ public class SaveManager : MonoBehaviour
                 }
                 else
                 {
-                    saveDatas = new List<SaveCell>();
+                    saveDatas.Clear();
                 }
                 
                 Debug.Log($"로드된 세이브 데이터 개수: {saveDatas?.Count ?? 0}");
@@ -169,13 +168,11 @@ public class SaveManager : MonoBehaviour
     // 가장 최근 세이브 데이터를 로드함
     public void OnLoad_RecentData()
     {
+        Load_Data();
+        
         if (saveDatas.Count > 0)
         {
-            m_saveData = saveDatas[saveDatas.Count - 1];
-        }
-        else
-        {
-            m_saveData = null;
+            m_saveData = saveDatas[saveDatas.Count - 1] as SaveCell;
         }
     }
 
