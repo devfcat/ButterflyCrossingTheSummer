@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Panel_Main : MonoBehaviour
@@ -7,6 +8,20 @@ public class Panel_Main : MonoBehaviour
     [Header("메인 화면의 패널들")]
     public GameObject Panel_Gallery;
     public GameObject Panel_Teams;
+
+    [Header("빠른 시작 버튼")]
+    public GameObject BTN_QuickLoad;
+
+    void OnEnable()
+    {
+        SetUI();
+    }
+
+    void SetUI()
+    {
+        SaveManager.Instance.OnLoad_RecentData();
+        BTN_QuickLoad.SetActive(SaveManager.Instance.saveDatas.Count > 0);
+    }
 
     public void OnClick_Setting()
     {
@@ -27,6 +42,19 @@ public class Panel_Main : MonoBehaviour
     {
         SoundManager.Instance.PlaySFX(SFX.UI);
         GameManager.Instance.SetState(eState.Chapter1);
+    } 
+
+    // 빠른 시작
+    public void OnClick_QuickLoad()
+    {
+        SaveManager.Instance.OnLoad_RecentData();
+        GameManager.Instance.Control_Popup(true, GameManager.Instance.m_Popup_QuickLoad);
+    }
+
+
+    public void OnClick_Load()
+    {
+        GameManager.Instance.Control_Load(true);
     }
 
     public void OnClick_Quit()

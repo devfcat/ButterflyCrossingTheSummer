@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     public GameObject m_Popup;
     public GameObject m_Popup_Saved;
     public GameObject m_Popup_Delete;
+    public GameObject m_Popup_QuickLoad;
 
     public GameObject Panel_Load;
     public GameObject Panel_Loading;
