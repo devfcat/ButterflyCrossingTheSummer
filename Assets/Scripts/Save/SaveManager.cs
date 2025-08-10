@@ -80,6 +80,12 @@ public class SaveManager : MonoBehaviour
         Load_Data();
     }
 
+    // 씬이 변경될때마다 SaveManager를 다시 가동
+    public void OnSceneChanged()
+    {
+        Load_Data();
+    }
+
     public void Set_Panel()
     {
         // 만약 데이터 개수가 0이라면 패널을 닫음
@@ -345,9 +351,15 @@ public class SaveManager : MonoBehaviour
         GameManager.Instance.isWorking = false;
     }
 
-    // 씬이 변경될때마다 SaveManager를 다시 가동
-    public void OnSceneChanged()
+
+    public void Save_ECGData(ECG name)
     {
-        Load_Data();
+        // 해당 ECG를 열람했을 때 이 아이디로 저장 (1이 해금했다는 의미)
+        PlayerPrefs.SetInt(name.ToString(), 1);
+    }
+
+    public bool Check_ECGData(ECG name)
+    {
+        return PlayerPrefs.GetInt(name.ToString()) == 1;
     }
 }
