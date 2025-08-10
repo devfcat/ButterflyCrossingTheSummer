@@ -134,6 +134,11 @@ public class ChoiceBox : MonoBehaviour
 
     public void OnClick(int i = 0) // 선택지 번호
     {
+        if (GameManager.Instance.isCurtainOn)
+        {
+            return;
+        }
+
         LogManager.Instance.Add_Log(contents[i]);
         LogManager.Instance.Make_LogUI();
         

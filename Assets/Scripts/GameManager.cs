@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
     public eState m_State; // 현재 씬 상태
     public bool isWorking; // 씬 변경 중인지 또는 로딩 중인지
     public bool isPopupOn; // 팝업이 열려있는가
+    public bool isCurtainOn; // 페이드 인 중인가
     public GameObject m_Popup;
     public GameObject m_Popup_Saved;
     public GameObject m_Popup_Delete;
@@ -124,6 +125,7 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     public IEnumerator Curtain(float time = 2f)
     {
+        isCurtainOn = true;
         // 페이드 인 시작
         Panel_FadeIn.SetActive(true);
         Panel_FadeOut.SetActive(false);
@@ -134,6 +136,8 @@ public class GameManager : MonoBehaviour
         // 페이드 아웃 시작
         Panel_FadeIn.SetActive(false);
         Panel_FadeOut.SetActive(true);
+
+        isCurtainOn = false;
     }
 
     public void Update()

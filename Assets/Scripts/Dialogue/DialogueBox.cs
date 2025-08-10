@@ -197,6 +197,11 @@ public class DialogueBox : MonoBehaviour
 
     public void OnClick()
     {
+        if (GameManager.Instance.isCurtainOn)
+        {
+            return;
+        }
+
         if (!isTextEnd)
         {
             m_textAnimation.SkipAnimation();
