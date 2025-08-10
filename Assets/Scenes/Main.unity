@@ -1576,6 +1576,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7a15755f9840b6843ad9d6496e1f3829, type: 3}
   - {fileID: 8300000, guid: 66d04887b96303743b11dd9d9df99c07, type: 3}
   - {fileID: 8300000, guid: f25717e06a1137f4993aa9c02762a966, type: 3}
+  - {fileID: 8300000, guid: 63324432d028e424a80db775289d2e68, type: 3}
+  - {fileID: 8300000, guid: 63c0eabe926f9de4d82051cdae42acec, type: 3}
+  - {fileID: 8300000, guid: 05e91dc87eb4bbd43b84741f79c99467, type: 3}
   sfxList:
   - {fileID: 8300000, guid: a1c77371d92078849a2993965c1a92a4, type: 3}
   - {fileID: 8300000, guid: 7d3447243bc69c245ac39ea75d76ded9, type: 3}
@@ -1590,6 +1593,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: dbc2787af5fa9ee4f910e07371cb68d9, type: 3}
   - {fileID: 8300000, guid: 062d28182a581a94982081ee79bbeeba, type: 3}
   - {fileID: 8300000, guid: a8b64fe9c4b0cf84b889161d95726fec, type: 3}
+  - {fileID: 8300000, guid: 2bd6bda6f1d81a2418919aef0dbf6e9e, type: 3}
+  - {fileID: 8300000, guid: 2bd6bda6f1d81a2418919aef0dbf6e9e, type: 3}
   Volume1: 1
   Volume2: 1
 --- !u!1 &188306217
