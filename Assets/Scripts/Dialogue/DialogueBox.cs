@@ -207,7 +207,7 @@ public class DialogueBox : MonoBehaviour
         if (fade && QuickMenuManager.Instance.m_mode == Mode.normal) // 만약 스킵이나 오토라면 넘길 때 암전효과를 끔   
         {
             // gameManager의 커튼을 일정 시간 세팅하고 완료 후 다음 페이지로
-            StartCoroutine(CurtainAndNextPage(fadeTime ?? 2f));
+            StartCoroutine(CurtainAndNextPage(fadeTime ?? 1f));
         }
         else
         {
