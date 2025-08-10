@@ -16,7 +16,7 @@
   },
   {
     "speaker": "@",
-    "content": "천국⋯ 이라고 불러야 하나.",
+    "content": "천국… 이라고 불러야 하나.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -61,7 +61,7 @@
   },
   {
     "speaker": "?",
-    "content": "그 외에도 셀 수 없이 많은 이름이 있죠. 저는 '정원'이라고 부릅니다만⋯.",
+    "content": "그 외에도 셀 수 없이 많은 이름이 있죠. 저는 '정원'이라고 부릅니다만….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -91,7 +91,7 @@
   },
   {
     "speaker": "@",
-    "content": "정원⋯.",
+    "content": "정원….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -286,7 +286,7 @@
   },
   {
     "speaker": "@",
-    "content": "그래도 살아있는 꽃을⋯ 이 아닌 건가.\n아무튼, 보기에 피어있는 꽃을 밟는 건 너무 잔인한 것 같아서요.",
+    "content": "그래도 살아있는 꽃을… 이 아닌 건가.\n아무튼, 보기에 피어있는 꽃을 밟는 건 너무 잔인한 것 같아서요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -436,7 +436,7 @@
   },
   {
     "speaker": "@",
-    "content": "제가 생각하는 그 곤충이 맞다면, 잘 보입니다. 그쪽 어깨에 앉아 있는 것도⋯.",
+    "content": "제가 생각하는 그 곤충이 맞다면, 잘 보입니다. 그쪽 어깨에 앉아 있는 것도….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -556,7 +556,7 @@
   },
   {
     "speaker": "?",
-    "content": "'삶의 빈자리'를 찾아 떠도는 '영혼'⋯.",
+    "content": "'삶의 빈자리'를 찾아 떠도는 '영혼'….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",

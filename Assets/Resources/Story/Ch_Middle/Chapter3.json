@@ -271,7 +271,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯이번에도 이러네.",
+    "content": "…이번에도 이러네.",
     "scg": "",
     "bg": "Garden_BG",
     "ecg": "",
@@ -361,7 +361,7 @@
   },
   {
     "speaker": "@",
-    "content": "조건⋯ 같은 게 있는 건가?",
+    "content": "조건… 같은 게 있는 건가?",
     "scg": "",
     "bg": "Garden_BG",
     "ecg": "",
@@ -406,7 +406,7 @@
   },
   {
     "speaker": "",
-    "content": "아니라면⋯ 이곳에서 특정 행동을 하면 그게 트리거가 돼서 '문'이 작동한다던가.",
+    "content": "아니라면… 이곳에서 특정 행동을 하면 그게 트리거가 돼서 '문'이 작동한다던가.",
     "scg": "",
     "bg": "Garden_BG",
     "ecg": "",
@@ -541,7 +541,7 @@
   },
   {
     "speaker": "@",
-    "content": "오랜만⋯ 이네⋯ 요?",
+    "content": "오랜만… 이네… 요?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -586,7 +586,7 @@
   },
   {
     "speaker": "?",
-    "content": "이 장소는 정원, 육신을 떠난 영혼이 잠시 머물다⋯",
+    "content": "이 장소는 정원, 육신을 떠난 영혼이 잠시 머물다…",
     "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
@@ -631,7 +631,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯네?",
+    "content": "…네?",
     "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
@@ -736,7 +736,7 @@
   },
   {
     "speaker": "@",
-    "content": "그⋯, 저번에 말했잖아요.",
+    "content": "그…, 저번에 말했잖아요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -751,7 +751,7 @@
   },
   {
     "speaker": "@",
-    "content": "여기는 죽은 사람이 오는 정원이고, 나비는 영혼이고⋯ 뭐, 꽃은 삶의 빈자리랬나 뭐랬나, 아무튼.",
+    "content": "여기는 죽은 사람이 오는 정원이고, 나비는 영혼이고… 뭐, 꽃은 삶의 빈자리랬나 뭐랬나, 아무튼.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -766,7 +766,7 @@
   },
   {
     "speaker": "?",
-    "content": "그걸 어떻게⋯.",
+    "content": "그걸 어떻게….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -796,7 +796,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯당신의 말대로, 이 장소는 죽은 존재의 영혼이 오게 되는 곳이 맞습니다.",
+    "content": "…당신의 말대로, 이 장소는 죽은 존재의 영혼이 오게 되는 곳이 맞습니다.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1006,7 +1006,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯저 시계, 어디서 났어요?",
+    "content": "…저 시계, 어디서 났어요?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1066,7 +1066,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯말이 조금 이상하네요. 여긴 육체가 죽고 나서 영혼만 올 수 있는 곳인데 돌아갈 수 있다니.",
+    "content": "…말이 조금 이상하네요. 여긴 육체가 죽고 나서 영혼만 올 수 있는 곳인데 돌아갈 수 있다니.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1141,7 +1141,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯아!",
+    "content": "…아!",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1156,7 +1156,7 @@
   },
   {
     "speaker": "?",
-    "content": "그, 자기가 문 저편에서 넘어왔다면서, 자신이 살아있다고 주장하던 영혼이 하나 있었던 것 같은데⋯.",
+    "content": "그, 자기가 문 저편에서 넘어왔다면서, 자신이 살아있다고 주장하던 영혼이 하나 있었던 것 같은데….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1186,7 +1186,7 @@
   },
   {
     "speaker": "?",
-    "content": "조금 낯이 익다 싶긴 했는데⋯. 그 분이시라고요?",
+    "content": "조금 낯이 익다 싶긴 했는데…. 그 분이시라고요?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1246,7 +1246,7 @@
   },
   {
     "speaker": "?",
-    "content": "시계가 작동을 멈춘 것도 아득할 정도로 오래전 일이고⋯.",
+    "content": "시계가 작동을 멈춘 것도 아득할 정도로 오래전 일이고….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1261,7 +1261,7 @@
   },
   {
     "speaker": "@",
-    "content": "시계⋯?",
+    "content": "시계…?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1336,7 +1336,7 @@
   },
   {
     "speaker": "@",
-    "content": "나는 이곳에 다녀간 지 한 달도 안 됐는데, 왜⋯.",
+    "content": "나는 이곳에 다녀간 지 한 달도 안 됐는데, 왜….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1351,7 +1351,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯아마, 이 장소가 그쪽의 시간과는 관련 없는 곳이라 그럴 거예요.",
+    "content": "…아마, 이 장소가 그쪽의 시간과는 관련 없는 곳이라 그럴 거예요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1381,7 +1381,7 @@
   },
   {
     "speaker": "?",
-    "content": "그러니까⋯. 설명하기엔 복잡한데,",
+    "content": "그러니까…. 설명하기엔 복잡한데,",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1456,7 +1456,7 @@
   },
   {
     "speaker": "?",
-    "content": "예를 들자면⋯.",
+    "content": "예를 들자면….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1486,7 +1486,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯아직 안 죽었으니 그런 건 몰라.",
+    "content": "…아직 안 죽었으니 그런 건 몰라.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1576,7 +1576,7 @@
   },
   {
     "speaker": "?",
-    "content": "극단적인 예시로, 죽은 자식이 이곳에서 기다리고 있다면, 먼저 죽은 부모를 만날 수 있다.\n⋯라고나 할까요.",
+    "content": "극단적인 예시로, 죽은 자식이 이곳에서 기다리고 있다면, 먼저 죽은 부모를 만날 수 있다.\n…라고나 할까요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1711,7 +1711,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯그런데, 당신은 어째서 환생을 하지 않고 이곳에 계속 남아있는 거죠?",
+    "content": "…그런데, 당신은 어째서 환생을 하지 않고 이곳에 계속 남아있는 거죠?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1786,7 +1786,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯⋯.",
+    "content": "…….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1891,7 +1891,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯감사합니다.",
+    "content": "…감사합니다.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1936,7 +1936,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯이 장소에 대해 많은 걸 알고 계신 걸 보니, 확실히 한 번 다녀갔던 그 영혼이 맞는 것 같군요.",
+    "content": "…이 장소에 대해 많은 걸 알고 계신 걸 보니, 확실히 한 번 다녀갔던 그 영혼이 맞는 것 같군요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1981,7 +1981,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯아니, 솔직히 지금도 의문투성이인 것들이 많네요.",
+    "content": "…아니, 솔직히 지금도 의문투성이인 것들이 많네요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -1996,7 +1996,7 @@
   },
   {
     "speaker": "?",
-    "content": "날개가 미완성일 때 만난 것도 그렇지만, 나갔다가 들어올 수 있다는 게 가장. 음⋯.",
+    "content": "날개가 미완성일 때 만난 것도 그렇지만, 나갔다가 들어올 수 있다는 게 가장. 음….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2056,7 +2056,7 @@
   },
   {
     "speaker": "@",
-    "content": "바깥⋯ 그러니까, 현실에 문이 하나 있어요.",
+    "content": "바깥… 그러니까, 현실에 문이 하나 있어요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2116,7 +2116,7 @@
   },
   {
     "speaker": "?",
-    "content": "문⋯. 그리고 그걸 열면 원할 때 여기 올 수 있다⋯.",
+    "content": "문…. 그리고 그걸 열면 원할 때 여기 올 수 있다….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2146,7 +2146,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯여기도 충분히 비현실적인 이야기 아닌가요.",
+    "content": "…여기도 충분히 비현실적인 이야기 아닌가요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2161,7 +2161,7 @@
   },
   {
     "speaker": "?",
-    "content": "아, 뭐⋯ 그렇긴 하지만.",
+    "content": "아, 뭐… 그렇긴 하지만.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2221,7 +2221,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯한 번 더 문을 열어볼래요?",
+    "content": "…한 번 더 문을 열어볼래요?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2296,7 +2296,7 @@
   },
   {
     "speaker": "?",
-    "content": "원할 때 올 수는 있지만, 떠날 때는 그렇지 않다⋯.",
+    "content": "원할 때 올 수는 있지만, 떠날 때는 그렇지 않다….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2326,7 +2326,7 @@
   },
   {
     "speaker": "?",
-    "content": "조건⋯ 이요?",
+    "content": "조건… 이요?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2371,7 +2371,7 @@
   },
   {
     "speaker": "@",
-    "content": "아뇨, 이 장소에 대해서 엄청 긴 얘기를 했던 것 말고는⋯ 딱히요.",
+    "content": "아뇨, 이 장소에 대해서 엄청 긴 얘기를 했던 것 말고는… 딱히요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2386,7 +2386,7 @@
   },
   {
     "speaker": "?",
-    "content": "흐음⋯.",
+    "content": "흐음….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2446,7 +2446,7 @@
   },
   {
     "speaker": "?",
-    "content": "얼른 돌아가셔야 할 텐데⋯.",
+    "content": "얼른 돌아가셔야 할 텐데….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2476,7 +2476,7 @@
   },
   {
     "speaker": "?",
-    "content": "네? 어째서⋯",
+    "content": "네? 어째서…",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2491,7 +2491,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯아.",
+    "content": "…아.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2566,7 +2566,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯그냥, 음. 그냥이네요. 다시 생각해보니.",
+    "content": "…그냥, 음. 그냥이네요. 다시 생각해보니.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2581,7 +2581,7 @@
   },
   {
     "speaker": "?",
-    "content": "그냥⋯?",
+    "content": "그냥…?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2641,7 +2641,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯라고 말은 하지만.",
+    "content": "…라고 말은 하지만.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2686,7 +2686,7 @@
   },
   {
     "speaker": "@",
-    "content": "매번 강의 듣고 아르바이트하고⋯. 새벽에 피시방에서 과제하고.",
+    "content": "매번 강의 듣고 아르바이트하고…. 새벽에 피시방에서 과제하고.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2836,7 +2836,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯다들 달리고 있으니 힘들다고 말도 못 하겠고,",
+    "content": "…다들 달리고 있으니 힘들다고 말도 못 하겠고,",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2866,7 +2866,7 @@
   },
   {
     "speaker": "@",
-    "content": "앞으로도, 쭉⋯ 이렇게 살아야 한다고 하니까⋯. 아프지 않게 죽을 수 있다면,\n그것도 나쁘지 않겠다는 생각이 들더라고요.",
+    "content": "앞으로도, 쭉… 이렇게 살아야 한다고 하니까…. 아프지 않게 죽을 수 있다면,\n그것도 나쁘지 않겠다는 생각이 들더라고요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2896,7 +2896,7 @@
   },
   {
     "speaker": "?",
-    "content": "천국⋯.",
+    "content": "천국….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -2926,7 +2926,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯아, 여기가 직장인 사람한테 천국은 조금 그랬나요?",
+    "content": "…아, 여기가 직장인 사람한테 천국은 조금 그랬나요?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3301,7 +3301,7 @@
   },
   {
     "speaker": "?",
-    "content": "네, 뭐⋯.",
+    "content": "네, 뭐….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3361,7 +3361,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯어?",
+    "content": "…어?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3406,7 +3406,7 @@
   },
   {
     "speaker": "?",
-    "content": "이상하다⋯?",
+    "content": "이상하다…?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3511,7 +3511,7 @@
   },
   {
     "speaker": "?",
-    "content": "아무래도, 저한테만 이런 것 같⋯ 죠?",
+    "content": "아무래도, 저한테만 이런 것 같… 죠?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3571,7 +3571,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯역시, 이상하네요.",
+    "content": "…역시, 이상하네요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3706,7 +3706,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯조금, 많이 유치하긴 한데, 그때는 저도 이곳에 온 지 얼마 안 됐어서 많이 심심했거든요.\n이런 짓으로 시간을 보내곤 했었죠.",
+    "content": "…조금, 많이 유치하긴 한데, 그때는 저도 이곳에 온 지 얼마 안 됐어서 많이 심심했거든요.\n이런 짓으로 시간을 보내곤 했었죠.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3841,7 +3841,7 @@
   },
   {
     "speaker": "?",
-    "content": "으으음⋯.",
+    "content": "으으음….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3856,7 +3856,7 @@
   },
   {
     "speaker": "?",
-    "content": "너무 실례가 아닐까요⋯?",
+    "content": "너무 실례가 아닐까요…?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3901,7 +3901,7 @@
   },
   {
     "speaker": "?",
-    "content": "그런 건 아니지만⋯.",
+    "content": "그런 건 아니지만….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3916,7 +3916,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯그럼.",
+    "content": "…그럼.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -3961,7 +3961,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯⋯?",
+    "content": "……?",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -3976,7 +3976,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯⋯얼굴에 뭐라도 묻었나요?",
+    "content": "……얼굴에 뭐라도 묻었나요?",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -3991,7 +3991,7 @@
   },
   {
     "speaker": "@",
-    "content": "그건 아닌데⋯ 그네를 밀어줄 사람한테는 보통 등을 보여주니까, 당황스러워서요.",
+    "content": "그건 아닌데… 그네를 밀어줄 사람한테는 보통 등을 보여주니까, 당황스러워서요.",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4006,7 +4006,7 @@
   },
   {
     "speaker": "?",
-    "content": "아, 그⋯⋯, 죄송해요. 금방 돌릴⋯.",
+    "content": "아, 그……, 죄송해요. 금방 돌릴….",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4021,7 +4021,7 @@
   },
   {
     "speaker": "@",
-    "content": "됐어요. 제가 돌아가면 되지. 이런 것 가지고 미안할 것 까지야⋯.",
+    "content": "됐어요. 제가 돌아가면 되지. 이런 것 가지고 미안할 것 까지야….",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4171,7 +4171,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯그렇게 계속 그네를 밀어주다,",
+    "content": "…그렇게 계속 그네를 밀어주다,",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4216,7 +4216,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯⋯에?",
+    "content": "……에?",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4291,7 +4291,7 @@
   },
   {
     "speaker": "?",
-    "content": "그마안⋯⋯!",
+    "content": "그마안……!",
     "scg": "",
     "bg": "",
     "ecg": "MSE_ECG2",
@@ -4351,7 +4351,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯장난이 너무 심했나⋯?",
+    "content": "…장난이 너무 심했나…?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4366,7 +4366,7 @@
   },
   {
     "speaker": "?",
-    "content": "완전 무섭긴 했는데요, 아하하⋯.",
+    "content": "완전 무섭긴 했는데요, 아하하….",
     "scg": "MSE_DialogueLaugh",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4381,7 +4381,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯풉.",
+    "content": "…풉.",
     "scg": "MSE_EyeLaugh",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4456,7 +4456,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯어째선지, 그 모습을 보니 덩달아 나까지 기분이 좋아지는 느낌을 받았다.",
+    "content": "…어째선지, 그 모습을 보니 덩달아 나까지 기분이 좋아지는 느낌을 받았다.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4471,7 +4471,7 @@
   },
   {
     "speaker": "?",
-    "content": "후⋯.",
+    "content": "후….",
     "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4531,7 +4531,7 @@
   },
   {
     "speaker": "?",
-    "content": "음⋯, 저도 그렇게 생각했는데, 확신이 들었어요.",
+    "content": "음…, 저도 그렇게 생각했는데, 확신이 들었어요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4546,7 +4546,7 @@
   },
   {
     "speaker": "?",
-    "content": "다른 사람이 밀어주는 그네를 타면서 맞는 바람은⋯\n당신이 밀어주는 것 보다 시원할 순 없을 거라고.",
+    "content": "다른 사람이 밀어주는 그네를 타면서 맞는 바람은…\n당신이 밀어주는 것 보다 시원할 순 없을 거라고.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4591,7 +4591,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯내가 나비가 되기까지는 얼마나 기다려야 하려나.",
+    "content": "…내가 나비가 되기까지는 얼마나 기다려야 하려나.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4621,7 +4621,7 @@
   },
   {
     "speaker": "",
-    "content": "이식을 받는다라⋯.",
+    "content": "이식을 받는다라….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4666,7 +4666,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯그것까지는 모르겠네요. 제가 환생을 해본 적이 없으니까.",
+    "content": "…그것까지는 모르겠네요. 제가 환생을 해본 적이 없으니까.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4681,7 +4681,7 @@
   },
   {
     "speaker": "@",
-    "content": "운이 나쁘면 바퀴벌레 같은 걸로 환생하는 건가⋯.",
+    "content": "운이 나쁘면 바퀴벌레 같은 걸로 환생하는 건가….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4756,7 +4756,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯아까는 몰랐는데, 의식하고 바라보니 웃는 모습이 낯익었다.",
+    "content": "…아까는 몰랐는데, 의식하고 바라보니 웃는 모습이 낯익었다.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4771,7 +4771,7 @@
   },
   {
     "speaker": "",
-    "content": "이 웃음을 언젠가 한 번 더 보고 싶다고 느낀 건⋯ 아마 그런 이유가 아닐까.",
+    "content": "이 웃음을 언젠가 한 번 더 보고 싶다고 느낀 건… 아마 그런 이유가 아닐까.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4801,7 +4801,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯계획 같은 건 없어요. 굳이 말하자면 지금이 당장이 제 계획의 결말이기도 하고.",
+    "content": "…계획 같은 건 없어요. 굳이 말하자면 지금이 당장이 제 계획의 결말이기도 하고.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4816,7 +4816,7 @@
   },
   {
     "speaker": "?",
-    "content": "당신이 환생하여도⋯ 전 여전히 이곳에 있겠죠.",
+    "content": "당신이 환생하여도… 전 여전히 이곳에 있겠죠.",
     "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4846,7 +4846,7 @@
   },
   {
     "speaker": "",
-    "content": "아까 같은 웃음도 짓지 않고, 영원히 이곳에⋯ 있겠다는 건가.",
+    "content": "아까 같은 웃음도 짓지 않고, 영원히 이곳에… 있겠다는 건가.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4861,7 +4861,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯마음이 조금 바뀌었는데.",
+    "content": "…마음이 조금 바뀌었는데.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4891,7 +4891,7 @@
   },
   {
     "speaker": "@",
-    "content": "환생을 하기 싫어졌달까⋯.",
+    "content": "환생을 하기 싫어졌달까….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4906,7 +4906,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯그럼, 그쪽도 여기 계시려고요?",
+    "content": "…그럼, 그쪽도 여기 계시려고요?",
     "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4966,7 +4966,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯이곳에서 뭐라도 했으니까, 운이 좋으면 다시 건너갈 수 있지 않을까요? 현생으로.",
+    "content": "…이곳에서 뭐라도 했으니까, 운이 좋으면 다시 건너갈 수 있지 않을까요? 현생으로.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -4981,7 +4981,7 @@
   },
   {
     "speaker": "?",
-    "content": "그네를 탄 것밖에 없긴 한데⋯.",
+    "content": "그네를 탄 것밖에 없긴 한데….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5041,7 +5041,7 @@
   },
   {
     "speaker": "",
-    "content": "그렇다면⋯ 언젠가 다시 이곳에 오게 되는 날이 있다면.\n통성명 정도는 해도 괜찮지 않을까. 그런 생각이 들었다.",
+    "content": "그렇다면… 언젠가 다시 이곳에 오게 되는 날이 있다면.\n통성명 정도는 해도 괜찮지 않을까. 그런 생각이 들었다.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5086,7 +5086,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯조금은 현실로 돌아가고 싶은 마음이 생긴 것보다, 이 멘트가 괜스레 낯 뜨겁게 느껴졌기에.",
+    "content": "…조금은 현실로 돌아가고 싶은 마음이 생긴 것보다, 이 멘트가 괜스레 낯 뜨겁게 느껴졌기에.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5101,7 +5101,7 @@
   },
   {
     "speaker": "?",
-    "content": "이름⋯.",
+    "content": "이름….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5116,7 +5116,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯.",
+    "content": "….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5146,7 +5146,7 @@
   },
   {
     "speaker": "?",
-    "content": "아뇨, 단지⋯ 이곳에서 누군가에게 제 이름을 알려줄 일이 없었으니까요.",
+    "content": "아뇨, 단지… 이곳에서 누군가에게 제 이름을 알려줄 일이 없었으니까요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5176,7 +5176,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯말이 너무 길었네요.",
+    "content": "…말이 너무 길었네요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -5281,7 +5281,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯뭐, 아무튼,",
+    "content": "…뭐, 아무튼,",
     "scg": "",
     "bg": "Garden_BG",
     "ecg": "",

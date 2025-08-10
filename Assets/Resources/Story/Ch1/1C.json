@@ -1,7 +1,7 @@
 [
   {
     "speaker": "@",
-    "content": "저는 그럼⋯ 죽은 건가요?",
+    "content": "저는 그럼… 죽은 건가요?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -136,7 +136,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯그럼, 제가 어떻게 죽었는 지 알 수 있을까요.",
+    "content": "…그럼, 제가 어떻게 죽었는 지 알 수 있을까요.",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -166,7 +166,7 @@
   },
   {
     "speaker": "?",
-    "content": "그런 것 까지 제가 들여다 볼 수는⋯.",
+    "content": "그런 것 까지 제가 들여다 볼 수는….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -226,7 +226,7 @@
   },
   {
     "speaker": "",
-    "content": "⋯라고 생각했는데,",
+    "content": "…라고 생각했는데,",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -241,7 +241,7 @@
   },
   {
     "speaker": "?",
-    "content": "다발성 장기 부전⋯, 프리마⋯ 리⋯ 모프⋯?",
+    "content": "다발성 장기 부전…, 프리마… 리… 모프…?",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -286,7 +286,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯저도 모르겠습니다. 제게 영혼이 겪었던 기억에 접촉할 권한은 없으니까요.",
+    "content": "…저도 모르겠습니다. 제게 영혼이 겪었던 기억에 접촉할 권한은 없으니까요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -376,7 +376,7 @@
   },
   {
     "speaker": "@",
-    "content": "⋯나갈 수 있는 길은 없죠?",
+    "content": "…나갈 수 있는 길은 없죠?",
     "scg": "",
     "bg": "",
     "ecg": "",

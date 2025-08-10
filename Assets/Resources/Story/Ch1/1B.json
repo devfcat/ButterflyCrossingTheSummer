@@ -16,7 +16,7 @@
   },
   {
     "speaker": "@",
-    "content": "약간⋯ 신 같은 존재?",
+    "content": "약간… 신 같은 존재?",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -61,7 +61,7 @@
   },
   {
     "speaker": "?",
-    "content": "굳이 따지자면⋯ 자원봉사자 같은 느낌일까요.",
+    "content": "굳이 따지자면… 자원봉사자 같은 느낌일까요.",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -136,7 +136,7 @@
   },
   {
     "speaker": "?",
-    "content": "저는 그런 나비를 직접 꽃으로 데려다주는, 일종의 길잡이 역할을 하기도 하고⋯,",
+    "content": "저는 그런 나비를 직접 꽃으로 데려다주는, 일종의 길잡이 역할을 하기도 하고…,",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -226,7 +226,7 @@
   },
   {
     "speaker": "@",
-    "content": "그렇게 들으니까 정말 평범한 사람 같네요. 외견도, 말투도⋯.",
+    "content": "그렇게 들으니까 정말 평범한 사람 같네요. 외견도, 말투도….",
     "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -241,7 +241,7 @@
   },
   {
     "speaker": "?",
-    "content": "저도 당신과 마찬가⋯,",
+    "content": "저도 당신과 마찬가…,",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -256,7 +256,7 @@
   },
   {
     "speaker": "?",
-    "content": "⋯.",
+    "content": "….",
     "scg": "MSE_Dialogue1",
     "bg": "Garden_BG",
     "ecg": "",
