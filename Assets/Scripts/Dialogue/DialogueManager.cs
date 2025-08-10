@@ -307,6 +307,13 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
+        // 다음 씬으로 넘겨지고 있을 때 return하여 예외처리
+        if (m_index >= list_dialogue.Count)
+        {
+            yield return null;
+            yield break;
+        }
+
         // 현재 ECG가 있다면 데이터 저장
         if (!string.IsNullOrEmpty(list_dialogue[m_index].ecg))
         {
