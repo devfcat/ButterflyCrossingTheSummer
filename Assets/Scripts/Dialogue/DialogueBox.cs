@@ -209,7 +209,7 @@ public class DialogueBox : MonoBehaviour
         }
 
         /// 만약 현재 대사창의 fade가 true라면 이 대사를 다 보고 다음 대사창으로 넘어가기 전에 커튼을 페이드 시킴
-        if (fade && QuickMenuManager.Instance.m_mode == Mode.normal) // 만약 스킵이나 오토라면 넘길 때 암전효과를 끔   
+        if (fade && QuickMenuManager.Instance.m_mode != Mode.skip) // 만약 스킵이나 오토라면 넘길 때 암전효과를 끔   
         {
             // gameManager의 커튼을 일정 시간 세팅하고 완료 후 다음 페이지로
             StartCoroutine(CurtainAndNextPage(fadeTime ?? 1f));
