@@ -246,7 +246,7 @@ public class GameManager : MonoBehaviour
     /// <returns></returns>
     IEnumerator Change_Scene(string scenename)
     {
-        Control_Popup(false); // 팝업을 닫음
+        Control_Popup(false, m_Popup, false); // 팝업을 닫음
         SoundManager.Instance.StopBGM(); 
 
         yield return StartCoroutine(Fade()); // 창 어둡게
