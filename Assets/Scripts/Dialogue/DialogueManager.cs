@@ -82,6 +82,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("세이브 데이터가 없습니다.");
             // 기본값 설정
             m_index = 0;
             m_addedIndex = 0;
@@ -305,6 +306,20 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
+
+        // 현재 ECG가 있다면 데이터 저장
+        if (!string.IsNullOrEmpty(list_dialogue[m_index].ecg))
+        {
+            try
+            {
+                ECG ecgValue = (ECG)System.Enum.Parse(typeof(ECG), list_dialogue[m_index].ecg);
+                SaveManager.Instance.Save_ECGData(ecgValue);
+            }
+            catch (System.ArgumentException)
+            {
+                Debug.LogWarning($"유효하지 않은 ECG 값: {list_dialogue[m_index].ecg}");
+            }
+        }
         
         // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
         if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
@@ -313,10 +328,10 @@ public class DialogueManager : MonoBehaviour
             LogManager.Instance.Make_LogUI();
         }
 
-         // 이어하기를 위해 이미지와 사운드 설정
-         SetCurrentDialogueUI();
+        // 이어하기를 위해 이미지와 사운드 설정
+        SetCurrentDialogueUI();
 
-         yield return null;
+        yield return null;
     }
 
     // 대사창 흐름에 맞게 선택지 이후 대사창을 띄움
