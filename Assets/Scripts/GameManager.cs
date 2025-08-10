@@ -11,6 +11,18 @@ public enum eState
     Chapter1 = 1, // 초반부
     Chapter2 = 2, // 민하린1
     Chapter3 = 3, // 시은1
+    Chapter4 = 4, // 민하린2
+    Chapter5 = 5, // 시은2
+    Chapter6 = 6, // 시은2-1
+    Chapter7 = 7, // 시은2-2
+    Chapter8 = 8, // 시은2-3
+    Chapter9 = 9, // 민하린3
+    Chapter10 = 10, // 주인공시점 1년
+    Chapter11 = 11, // 민하린 시점
+    Chapter12 = 12, // 주인공시점 2년
+    StoryEnd = 13, // 스토리 종료 후 결말 (엔딩 포함)
+    AfterStory = 14, // 후일담
+    ReadEnd = 15, // 진짜 엔딩
 }
 
 public class GameManager : MonoBehaviour
