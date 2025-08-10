@@ -11,7 +11,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -25,7 +26,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -39,7 +41,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -53,7 +56,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -67,7 +71,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -81,7 +86,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -95,7 +101,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -109,7 +116,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -123,11 +131,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "…고 생각했지만.",
+    "content": "⋯고 생각했지만.",
     "scg": "",
     "bg": "Office_Day",
     "ecg": "",
@@ -137,7 +146,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -151,7 +161,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -165,7 +176,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -179,7 +191,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -193,7 +206,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -207,7 +221,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -221,7 +236,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -235,7 +251,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -249,7 +266,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -263,7 +281,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -277,11 +296,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "그렇게 오늘도 사내 인원들이 단체 흡연을 이유로 자리를 비워서 이런 생각들로 시간을 때우던 참에,",
+    "content": "그렇게 오늘도 사내 인원들이 단체 흡연을 이유로 자리를 비워 이런 생각들로 시간을 때우던 참에,",
     "scg": "",
     "bg": "Office_Day",
     "ecg": "",
@@ -291,7 +311,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -305,7 +326,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -319,7 +341,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -329,11 +352,12 @@
     "ecg": "",
     "bgm": "Office_Loud",
     "se": "",
-    "fade": "FALSE",
+    "fade": "TRUE",
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -347,7 +371,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -361,7 +386,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -375,7 +401,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -389,7 +416,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -403,7 +431,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -417,7 +446,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -431,11 +461,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…?",
+    "content": "⋯?",
     "scg": "",
     "bg": "Station_BG",
     "ecg": "",
@@ -445,7 +476,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -459,7 +491,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -473,7 +506,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -487,7 +521,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -501,7 +536,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -515,7 +551,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -529,11 +566,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "하루 종일 치운다고…? 너 아파트에 살아?",
+    "content": "하루 종일 치운다고⋯? 너 아파트에 살아?",
     "scg": "MHR_Normal1",
     "bg": "Station_BG",
     "ecg": "",
@@ -543,7 +581,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -557,7 +596,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -571,7 +611,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -585,11 +626,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "'민하린의 방은 도대체 얼마나 더러운 거지?`라는 생각에 나도 모르게 그녀를 바라봤고,",
+    "content": "민하린의 방은 도대체 얼마나 더러운 거지?`라는 생각에 나도 모르게 그녀를 바라봤고,",
     "scg": "MHR_Normal1",
     "bg": "Station_BG",
     "ecg": "",
@@ -599,7 +641,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -613,7 +656,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -627,11 +671,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…알면서 온 눈친데, 어떻게 알았냐.",
+    "content": "⋯알면서 온 눈친데, 어떻게 알았냐.",
     "scg": "MHR_Normal1",
     "bg": "Station_BG",
     "ecg": "",
@@ -641,7 +686,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -655,7 +701,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -669,7 +716,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -683,7 +731,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -697,7 +746,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -711,11 +761,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…진짜 초딩이냐?",
+    "content": "⋯진짜 초딩이냐?",
     "scg": "MHR_Normal1",
     "bg": "Station_BG",
     "ecg": "",
@@ -725,7 +776,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -739,7 +791,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -753,7 +806,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -767,7 +821,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -781,7 +836,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -795,7 +851,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -809,7 +866,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -823,7 +881,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -837,7 +896,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -851,7 +911,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -861,11 +922,12 @@
     "ecg": "",
     "bgm": "BGM_Daily1",
     "se": "",
-    "fade": "FALSE",
+    "fade": "TRUE",
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -879,11 +941,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…야, 나 그거 다 못 마신다?",
+    "content": "⋯야, 나 그거 다 못 마신다?",
     "scg": "MHR_Normal1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -893,7 +956,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -907,7 +971,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -921,7 +986,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -935,7 +1001,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -949,7 +1016,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -963,7 +1031,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -977,11 +1046,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…말이라고 하냐.",
+    "content": "⋯말이라고 하냐.",
     "scg": "MHR_Normal1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -991,7 +1061,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1005,7 +1076,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1019,7 +1091,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1033,11 +1106,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "…장난이고, 남은 건 냉장고에 넣어두지 뭐. 사실 오늘 다 마실 생각으로 산 것도 아니었으니까.",
+    "content": "⋯장난이고, 남은 건 냉장고에 넣어두지 뭐. 사실 오늘 다 마실 생각으로 산 것도 아니었으니까.",
     "scg": "MHR_Dialogue1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -1047,7 +1121,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1061,7 +1136,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1075,11 +1151,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "보통 부족하면 그때그때 사러 나가지 않나…?",
+    "content": "보통 부족하면 그때그때 사러 나가지 않나⋯?",
     "scg": "MHR_Normal1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -1089,7 +1166,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1103,7 +1181,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1117,11 +1196,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "아아…. 싫어. 네가 이거 들어주던가.",
+    "content": "아아⋯. 싫어. 네가 이거 들어주던가.",
     "scg": "MHR_Dialogue1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -1131,7 +1211,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1145,7 +1226,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1159,7 +1241,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1173,11 +1256,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "이런 바닥에 뒀다간…",
+    "content": "이런 바닥에 뒀다간⋯",
     "scg": "MHR_Dialogue1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -1187,7 +1271,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1201,7 +1286,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1215,7 +1301,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1229,11 +1316,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…어휴.",
+    "content": "⋯어휴.",
     "scg": "MHR_Normal1",
     "bg": "Bus_BG",
     "ecg": "",
@@ -1243,7 +1331,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1257,7 +1346,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1271,7 +1361,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1285,7 +1376,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1299,7 +1391,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1313,11 +1406,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "크으으…!",
+    "content": "크으으⋯!",
     "scg": "",
     "bg": "",
     "ecg": "",
@@ -1327,7 +1421,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1341,7 +1436,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1355,7 +1451,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1369,7 +1466,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1383,7 +1481,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1397,7 +1496,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1411,7 +1511,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1425,7 +1526,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1439,11 +1541,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "음, 그냥….",
+    "content": "음, 그냥⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1453,7 +1556,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1467,7 +1571,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1481,7 +1586,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1495,7 +1601,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1509,7 +1616,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1523,7 +1631,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1537,7 +1646,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1551,7 +1661,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1565,7 +1676,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1579,7 +1691,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1593,11 +1706,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린.",
-    "content": "…끝?",
+    "content": "⋯끝?",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1607,7 +1721,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1621,7 +1736,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1635,7 +1751,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1649,11 +1766,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "…틀린 말은 아닌 것 같긴 하면서도, 내심 상처받고야 말았다.",
+    "content": "⋯틀린 말은 아닌 것 같긴 하면서도, 내심 상처받고야 말았다.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1663,7 +1781,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1677,7 +1796,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1691,11 +1811,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "나? 나는, 음….",
+    "content": "나? 나는, 음⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1705,7 +1826,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1719,7 +1841,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1733,7 +1856,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1747,7 +1871,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1761,7 +1886,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1775,7 +1901,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1789,7 +1916,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1803,7 +1931,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1817,11 +1946,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "사실, 이미 단역이나 엑스트라 같은 건 일반인들 취미나 아르바이트 정도 인식인 건 알긴 하지만….",
+    "content": "사실, 이미 단역이나 엑스트라 같은 건 일반인들 취미나 아르바이트 정도 인식인 건 알긴 하지만⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1831,11 +1961,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "그래도… 뭐라도 해야겠다 싶어서 연기 관련된 일만 주구장창 찾아다니고 있는 셈인데,",
+    "content": "그래도⋯ 뭐라도 해야겠다 싶어서 연기 관련된 일만 주구장창 찾아다니고 있는 셈인데,",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1845,11 +1976,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "키스씬 해봤냐 그러고, 남친 있냐 물어보고…. 아, 이런 사람도 있었다.",
+    "content": "키스씬 해봤냐 그러고, 남친 있냐 물어보고⋯. 아, 이런 사람도 있었다.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1859,11 +1991,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "자기가 성인 영화 각본 써놓은 게 있다고 나한테 보여줬는데, 그냥… 어휴. 됐다, 그냥.",
+    "content": "자기가 성인 영화 각본 써놓은 게 있다고 나한테 보여줬는데, 그냥⋯ 어휴. 됐다, 그냥.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -1873,7 +2006,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1887,7 +2021,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1901,7 +2036,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1915,7 +2051,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1929,7 +2066,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -1943,7 +2081,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1957,7 +2096,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1971,7 +2111,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -1985,7 +2126,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -1999,7 +2141,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2013,7 +2156,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2027,7 +2171,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2041,7 +2186,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2055,11 +2201,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…근데, 너 술 그렇게 많이 마셔도 되는 거야?",
+    "content": "⋯근데, 너 술 그렇게 많이 마셔도 되는 거야?",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2069,11 +2216,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "응? 나? 많이… 마셨나? 모르겠네…?",
+    "content": "응? 나? 많이⋯ 마셨나? 모르겠네⋯?",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2083,7 +2231,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2097,7 +2246,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2111,7 +2261,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2125,7 +2276,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2139,11 +2291,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "걱정은 되지만, 얘 집이니까 뭐…. 취해서 곯아떨어져도 상관없겠지.",
+    "content": "걱정은 되지만, 얘 집이니까 뭐⋯. 취해서 곯아떨어져도 상관없겠지.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2153,7 +2306,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2167,7 +2321,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2181,7 +2336,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2195,7 +2351,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2209,7 +2366,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2223,7 +2381,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2237,7 +2396,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2251,7 +2411,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2265,7 +2426,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2279,11 +2441,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "…음….",
+    "content": "⋯음⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2293,11 +2456,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "사실, 포기할까 고민도 많이 했었는데….",
+    "content": "사실, 포기할까 고민도 많이 했었는데⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2307,7 +2471,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2321,11 +2486,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "…무엇보다, 응원을 받고 있어서, 포기하는 모습을 보여주고 싶지 않기도 해서.",
+    "content": "⋯무엇보다, 응원을 받고 있어서, 포기하는 모습을 보여주고 싶지 않기도 해서.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2335,7 +2501,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2349,7 +2516,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2363,7 +2531,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2377,7 +2546,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2391,7 +2561,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2405,7 +2576,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2419,7 +2591,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2433,7 +2606,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2447,7 +2621,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2461,7 +2636,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2475,7 +2651,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2489,11 +2666,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…무슨 말이야?",
+    "content": "⋯무슨 말이야?",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2503,7 +2681,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2517,7 +2696,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2531,7 +2711,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2545,7 +2726,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2559,11 +2741,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "꺄아아아아아아아악!!!!! 살려ㅈ……….",
+    "content": "꺄아아아아아아아악!!!!! 살려ㅈ⋯⋯⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2573,7 +2756,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2587,11 +2771,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "야, 너 진짜 미쳤어…?!",
+    "content": "야, 너 진짜 미쳤어⋯?!",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2601,7 +2786,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2615,7 +2801,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2629,7 +2816,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2643,7 +2831,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2657,11 +2846,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…화장실 우르르 몰려가는 것도 아니고, 내가 귀찮게 담배 피우는 걸 왜 따라가. 냄새도 싫고.",
+    "content": "⋯화장실 우르르 몰려가는 것도 아니고, 내가 귀찮게 담배 피우는 걸 왜 따라가. 냄새도 싫고.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2671,11 +2861,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "…….",
+    "content": "⋯⋯.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2685,11 +2876,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "……뭐.",
+    "content": "⋯⋯뭐.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2699,11 +2891,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "동네사람들!!!!!! 이 사람이 저 ㄱ………",
+    "content": "동네사람들!!!!!! 이 사람이 저 ㄱ⋯⋯⋯",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2713,7 +2906,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2727,7 +2921,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2741,7 +2936,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2755,7 +2951,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2769,7 +2966,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2783,7 +2981,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2797,7 +2996,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2811,11 +3011,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "하아……. 나가는 김에 슬슬 집에 가야겠다, 나도.",
+    "content": "하아⋯⋯. 나가는 김에 슬슬 집에 가야겠다, 나도.",
     "scg": "",
     "bg": "",
     "ecg": "MHR_ECG2",
@@ -2825,7 +3026,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2839,7 +3041,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2853,7 +3056,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2867,7 +3071,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -2881,7 +3086,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2895,7 +3101,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2905,11 +3112,12 @@
     "ecg": "",
     "bgm": "BGM_Cute1",
     "se": "",
-    "fade": "FALSE",
+    "fade": "TRUE",
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -2923,11 +3131,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…담배는 언제부터 시작한 거야.",
+    "content": "⋯담배는 언제부터 시작한 거야.",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -2937,7 +3146,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2951,11 +3161,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "피우기 시작한 지 얼마 안 됐는데….",
+    "content": "피우기 시작한 지 얼마 안 됐는데⋯.",
     "scg": "MHR_Dialogue1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -2965,7 +3176,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2979,7 +3191,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -2993,7 +3206,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3007,7 +3221,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3021,7 +3236,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3035,7 +3251,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3049,7 +3266,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3063,7 +3281,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3077,7 +3296,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3091,7 +3311,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3105,11 +3326,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "어깨에서는 퍽퍽 소리가 크게 나는 것에 비해 그리 아프게 느껴지진 않았지만….",
+    "content": "어깨에서는 퍽퍽 소리가 크게 나는 것에 비해 그리 아프게 느껴지진 않았지만⋯.",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3119,7 +3341,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3133,7 +3356,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3147,7 +3371,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3161,11 +3386,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "뭐…, 회사 들어갈 거면 피우는 게 정신건강엔 이로울 수도 있겠는데,",
+    "content": "뭐⋯, 회사 들어갈 거면 피우는 게 정신건강엔 이로울 수도 있겠는데,",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3175,7 +3401,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3189,7 +3416,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3203,7 +3431,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3217,7 +3446,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3231,7 +3461,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3245,7 +3476,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3259,11 +3491,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "그런 게 아니라! 그냥….",
+    "content": "그런 게 아니라! 그냥⋯.",
     "scg": "MHR_Dialogue2",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3273,11 +3506,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "….",
+    "content": "⋯.",
     "scg": "MHR_Normal2",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3287,11 +3521,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "…그냥, 아직은… 응원 없이는 못 살 것 같아서 그래.",
+    "content": "⋯그냥, 아직은⋯ 응원 없이는 못 살 것 같아서 그래.",
     "scg": "MHR_Dialogue침착",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3301,7 +3536,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3315,7 +3551,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3329,7 +3566,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3343,7 +3581,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3357,7 +3596,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3371,11 +3611,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…뭐?",
+    "content": "⋯뭐?",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3385,7 +3626,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3399,7 +3641,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3413,7 +3656,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3427,7 +3671,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
@@ -3441,7 +3686,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3455,7 +3701,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3469,7 +3716,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3483,11 +3731,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "하….",
+    "content": "하⋯.",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3497,7 +3746,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3511,7 +3761,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3525,7 +3776,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3539,7 +3791,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3553,7 +3806,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3567,7 +3821,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3581,7 +3836,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3595,11 +3851,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
-    "content": "웁….",
+    "content": "웁⋯.",
     "scg": "MHR_Enjoy",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3609,11 +3866,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "@",
-    "content": "…야, 아니지?",
+    "content": "⋯야, 아니지?",
     "scg": "MHR_Enjoy",
     "bg": "Playground_BG",
     "ecg": "",
@@ -3623,7 +3881,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3637,7 +3896,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3651,7 +3911,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3665,7 +3926,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3679,7 +3941,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "민하린",
@@ -3693,7 +3956,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3707,7 +3971,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3717,11 +3982,12 @@
     "ecg": "",
     "bgm": "BGM_Cute1",
     "se": "",
-    "fade": "FALSE",
+    "fade": "TRUE",
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3735,7 +4001,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3749,7 +4016,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3763,11 +4031,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "그녀를 어떻게든 정신 차리도록 만들어 도어락의 비밀번호를 물어볼 생각으로 3층씩이나 되는 계단을 걸어 올라왔다.",
+    "content": "그녀를 어떻게든 정신 차리도록 만들어 도어락의 비밀번호를 물어볼 생각으로\n3층씩이나 되는 계단을 걸어 올라왔다.",
     "scg": "",
     "bg": "HarinsRoom_BG",
     "ecg": "",
@@ -3777,7 +4046,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3791,7 +4061,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3805,7 +4076,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3819,7 +4091,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3833,7 +4106,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3847,7 +4121,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3861,11 +4136,12 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
-    "content": "…여기서 씻거나 빨래를 할 수도 없는 노릇이니 일단은 택시를 부르고 기다리던 중,",
+    "content": "⋯여기서 씻거나 빨래를 할 수도 없는 노릇이니 일단은 택시를 부르고 기다리던 중,",
     "scg": "",
     "bg": "HarinsRoom_BG",
     "ecg": "",
@@ -3875,7 +4151,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3889,7 +4166,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3903,7 +4181,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3917,7 +4196,8 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   },
   {
     "speaker": "",
@@ -3931,6 +4211,7 @@
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",
-    "isChangeSoft": "FALSE"
+    "isChangeSoft": "FALSE",
+    "fadeTime": ""
   }
 ]
