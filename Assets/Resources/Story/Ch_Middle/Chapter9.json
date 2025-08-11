@@ -2363,7 +2363,7 @@
     "bgm": "BGM_SadSoda",
     "se": "",
     "fade": "FALSE",
-    "isChoice": "FALSE",
+    "isChoice": "TRUE",
     "choiceResult": "",
     "choiceScore": "",
     "isChangeSoft": "TRUE",
