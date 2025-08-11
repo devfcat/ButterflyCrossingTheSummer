@@ -22,6 +22,23 @@ public enum BGM
     BGM_Cute1 = 9,
     BGM_Garden2 = 10,
     BGM_Cute3 = 11,
+    BGM_Office_Rain = 12,
+    BGM_RainAndUmbrella = 13,
+    BGM_LowDaily1 = 14,
+    BGM_DrugStoreInside = 15,
+    BGM_Bakery = 16,
+    BGM_Birthday = 17,
+    BGM_Cute2 = 18,
+    BGM_Cafe = 19,
+    BGM_Cicada = 20,
+    BGM_SadSoda = 21,
+    BGM_Hospital2 = 22,
+    BGM_GardenNight = 23,
+    BGM_GardenDawn = 24,
+    BGM_Clock = 25,
+    BGM_LowDaily3 = 26,
+    BGM_LowDaily2 = 27,
+    BGM_HarinSad1 = 28,
 }
 
 /// <summary>
@@ -52,7 +69,19 @@ public enum SFX
     SE_Breath = 10,
     SE_Grasses = 11,
     SE_Wind = 12,
-
+    SE_WaterWalk = 13,
+    SE_BusEngine = 14,
+    SE_Barcode = 15,
+    SE_TorchOn = 16,
+    SE_Dingdong = 17,
+    SE_Shutter = 18,
+    SE_Page1 = 19,
+    SE_Page2 = 20,
+    SE_Step = 21,
+    SE_Call = 22,
+    SE_CarDoor = 23,
+    SE_Knock = 24,
+    SE_RainAndUmbrella = 25,
 }
 
 public class SoundManager : MonoBehaviour
