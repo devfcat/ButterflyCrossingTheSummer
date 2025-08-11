@@ -51,6 +51,13 @@ public enum BG
     GoForDoor_BG1 = 42,
     GoForDoor_BG2 = 43,
     GoForDoor_BG3 = 44,
+    Garden_DeepNight_BG = 45,
+    PlaygroundMorning_BG = 46,
+    ForPlaygroundMorning_BG = 47,
+    CountryStation_BG = 48,
+    CountryBusStation_BG = 49,
+    Reeds_BG = 50,
+
 }
 
 public enum ECG
@@ -66,6 +73,9 @@ public enum ECG
     MSE_ECG5 = 8,
     MHR_ECG5_1 = 9,
     MHR_ECG5_2 = 10,
+    MSE_ECG6 = 11,
+    MHR_ECG4 = 12,
+    MHR_ECG6 = 13,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트

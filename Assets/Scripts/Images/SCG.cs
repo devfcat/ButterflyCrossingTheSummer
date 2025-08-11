@@ -31,6 +31,9 @@ public enum SCGs
     MSE_ShyDialogue1 = 22,
     MSE_EyeMoveDialogue1 = 23,
     MSE_Cry = 24,
+    MSE_Cry1_Dialogue1 = 25,
+    MSE_Cry1_Dialogue2 = 26,
+    MSE_Cry1_Normal1 = 27,
 }
 
 // 캐릭터 스탠딩 일러스트를 적용하는 매니저

@@ -39,6 +39,15 @@ public enum BGM
     BGM_LowDaily3 = 26,
     BGM_LowDaily2 = 27,
     BGM_HarinSad1 = 28,
+    BGM_SESad = 29,
+    BGM_SESad2 = 30,
+    BGM_Ending1 = 31,
+    BGM_Ending2 = 32,
+    BGM_Ending3 = 33,
+    BGM_Train = 34,
+    BGM_Fall = 35,
+    BGM_FakeEnd = 36,
+    BGM_RealEnd = 37,
 }
 
 /// <summary>
@@ -82,6 +91,7 @@ public enum SFX
     SE_CarDoor = 23,
     SE_Knock = 24,
     SE_RainAndUmbrella = 25,
+    SE_WalkGarden = 26,
 }
 
 public class SoundManager : MonoBehaviour

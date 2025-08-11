@@ -22,7 +22,8 @@ public enum eState
     Chapter12 = 12, // 주인공시점 2년
     StoryEnd = 13, // 스토리 종료 후 결말 (엔딩 포함)
     AfterStory = 14, // 후일담
-    ReadEnd = 15, // 진짜 엔딩
+    RealEnd = 15, // 진짜 엔딩
+    Credits = 16, // 엔딩 크레딧
 }
 
 public class GameManager : MonoBehaviour
