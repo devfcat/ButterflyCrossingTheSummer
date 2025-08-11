@@ -6,18 +6,18 @@ using TMPro;
 public class ChoiceBox : MonoBehaviour
 {
     public string content;
-     public string bgm;
-     public string? se;
-     public bool fade;
-     public bool isChoice;
-     public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
-     public string? choiceScore;
-     
-     // 이미지 관련 필드 추가
-     public string? scg;
-     public string bg;
-     public string? ecg;
-     public bool isChangeSoft; // scg와 bg가 부드럽게 바뀌는가 (서서히 나타남)
+    public string bgm;
+    public string? se;
+    public bool fade;
+    public bool isChoice;
+    public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
+    public string? choiceScore;
+    
+    // 이미지 관련 필드 추가
+    public string? scg;
+    public string bg;
+    public string? ecg;
+    public bool isChangeSoft; // scg와 bg가 부드럽게 바뀌는가 (서서히 나타남)
 
     public List<string> contents;
 
@@ -106,7 +106,7 @@ public class ChoiceBox : MonoBehaviour
                 }
             }
         }
-        
+
         // UI에 내용 표시
         for (int i = 0; i < tmp_contents.Count; i++)
         {

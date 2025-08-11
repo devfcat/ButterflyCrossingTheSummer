@@ -99,6 +99,10 @@ MonoBehaviour:
   isChoice: 0
   choiceResult: 
   choiceScore: 
+  scg: 
+  bg: 
+  ecg: 
+  isChangeSoft: 0
   contents: []
   tmp_contents:
   - {fileID: 828624481036654215}
@@ -108,6 +112,7 @@ MonoBehaviour:
   - {fileID: 5875038594020195097}
   - {fileID: 2738239884109057759}
   - {fileID: 4537351973899021555}
+  isDataSet: 0
 --- !u!114 &9218676657382636481
 MonoBehaviour:
   m_ObjectHideFlags: 0
