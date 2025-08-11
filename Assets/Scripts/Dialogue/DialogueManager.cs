@@ -61,7 +61,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void Start()
+    void OnEnable()
     {
         // 세이브 데이터가 있으면 로드, 없으면 기본값 설정
         if (SaveManager.Instance.m_saveData != null)
@@ -358,6 +358,9 @@ public class DialogueManager : MonoBehaviour
             }
             
             Paging(); // 마지막 대사창을 처리하는 메서드 호출
+
+            m_addedIndex = 0; // 선택지 인덱스 초기화
+
             yield return null;
         }
         else if (m_addedIndex > 0)
@@ -413,6 +416,8 @@ public class DialogueManager : MonoBehaviour
             // 다음 챕터로 이동
             GameManager.Instance.SetState(n_scene);
         }
+
+        m_index = 0; // 대사 인덱스 초기화
     }
 
     /// <summary>
