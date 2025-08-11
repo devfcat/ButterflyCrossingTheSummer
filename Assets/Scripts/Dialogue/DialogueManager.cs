@@ -33,6 +33,8 @@ public class DialogueManager : MonoBehaviour
     public List<DialogueCell> list_dialogue; // 대화 데이터들을 이곳에 순서대로 저장됨
     public List<DialogueCell> list_addedDialogue; // 선택지 이후의 대사 데이터들을 이곳에 순서대로 저장됨
 
+    public GameObject Panel_FakeEnd; // 만약 후일담 챕터에서 모든 대사를 열람했다면
+
     private static DialogueManager instance;
     public static DialogueManager Instance
     {
@@ -401,6 +403,17 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log($"Paging 호출됨 - isReadAddedDialogue: {isReadAddedDialogue}, m_index: {m_index}, length: {length}");
         
+        if (GameManager.Instance.m_State == eState.AfterStory)
+        {
+            if(!Panel_FakeEnd.activeSelf)
+            {
+                Panel_FakeEnd.SetActive(true);
+            }
+            m_index = 0;
+            return;
+        }
+
+
         // 다음 씬으로
         if (isReadAddedDialogue)
         {
