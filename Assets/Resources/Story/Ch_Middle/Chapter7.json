@@ -136,7 +136,7 @@
   },
   {
     "speaker": "",
-    "content": "시은 씨는 \"\"왜 또 오셨어요? 뭐 놓고 가셨나?\"\"라고 대답했다.",
+    "content": "시은 씨는 \"왜 또 오셨어요? 뭐 놓고 가셨나?\"라고 대답했다.",
     "scg": "MSE_Shy1",
     "bg": "Garden_BG",
     "ecg": "",
@@ -218,7 +218,7 @@
     "bgm": "BGM_Garden1",
     "se": "",
     "fade": "FALSE",
-    "isChoice": "FALSE",
+    "isChoice": "TRUE",
     "choiceResult": "",
     "choiceScore": "",
     "isChangeSoft": "TRUE",
@@ -647,7 +647,7 @@
   {
     "speaker": "@",
     "content": "…영혼을 먹는다는 뜻?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -692,7 +692,7 @@
   {
     "speaker": "@",
     "content": "그래도 좀 그로테스크하네요. 영혼을 먹고 자기가 부활한다는 게.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -722,7 +722,7 @@
   {
     "speaker": "@",
     "content": "그쪽은 이식이라고 하지 않았어요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -857,7 +857,7 @@
   {
     "speaker": "",
     "content": "환생을 고민했다라….",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -872,7 +872,7 @@
   {
     "speaker": "",
     "content": "저번 방문 중 그녀에게 했던 질문이 다시금 떠올랐다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -887,7 +887,7 @@
   {
     "speaker": "@",
     "content": "…시은 씨는 왜 환생을 거부하시는 건가요.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -902,7 +902,7 @@
   {
     "speaker": "@",
     "content": "영혼이 환생에 대해 강한 열망을 가지고 있는 존재라고 친다면, 당신도 예외는 아닐 텐데.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -917,7 +917,7 @@
   {
     "speaker": "",
     "content": "그녀는 눈길을 잠시 흘겼다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -932,7 +932,7 @@
   {
     "speaker": "",
     "content": "무언가 생각할 게 있다는 무언의 표시이기도 해서, 시은 씨가 입을 열 때 까지 잠시 기다렸다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1082,7 +1082,7 @@
   {
     "speaker": "@",
     "content": "어쩌면 지금이 천직인 걸지도?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1097,7 +1097,7 @@
   {
     "speaker": "",
     "content": "순간 또다시 말실수를 한 것 같아 말을 주워 담으려던 순간에,\n그녀는 감정이 반 컵 정도 들어간 미소를 지으며 대답했다.",
-    "scg": "",
+    "scg": "MSE_Normal2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1112,7 +1112,7 @@
   {
     "speaker": "시은",
     "content": "저도 그렇게 생각해요.",
-    "scg": "",
+    "scg": "MSE_DialogueLaugh",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1127,7 +1127,7 @@
   {
     "speaker": "",
     "content": "이 일이 그녀의 천직이라면 언젠가 은퇴의 순간이 올까.",
-    "scg": "MSE_Dialogue1",
+    "scg": "MSE_Normal2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1142,7 +1142,7 @@
   {
     "speaker": "",
     "content": "그런 궁금증이 잠시 머릿속을 스쳤지만,\n은퇴라는 단어의 의미가 그녀에겐 애매모호하다고 느껴서 구태여 그 말을 꺼내진 않았다.",
-    "scg": "",
+    "scg": "MSE_Normal2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1217,7 +1217,7 @@
   {
     "speaker": "",
     "content": "그녀는 나와 대략 10미터가량 떨어진 채 주변을 둘러보다, 나를 향해 다가왔다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1232,7 +1232,7 @@
   {
     "speaker": "",
     "content": "책을 들고 펼쳤을 시점엔 이미 내 곁에서 속 페이지를 나와 함께 바라보고 있었다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1247,7 +1247,7 @@
   {
     "speaker": "@",
     "content": "…'꽃들에게 희망을'?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1262,7 +1262,7 @@
   {
     "speaker": "시은",
     "content": "뭘 읽으신 거예요?",
-    "scg": "MSE_Dialogue1",
+    "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1277,7 +1277,7 @@
   {
     "speaker": "@",
     "content": "책 속표지 제목이요.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1307,7 +1307,7 @@
   {
     "speaker": "@",
     "content": "안 보여요? 여기 대문짝만하게 쓰여 있는데.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1322,7 +1322,7 @@
   {
     "speaker": "",
     "content": "손가락으로 툭툭 건드려도, 그녀가 얼굴을 들이밀며 구석구석 뒤져보는 듯해도,",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1352,7 +1352,7 @@
   {
     "speaker": "",
     "content": "시은 씨에겐 특별한 것 없는 종이처럼 보이는 듯했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1367,7 +1367,7 @@
   {
     "speaker": "",
     "content": "이것도, '열쇠'이기 때문이겠지.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1382,7 +1382,7 @@
   {
     "speaker": "@",
     "content": "여기도 안 보여요? 이 페이지도?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1397,7 +1397,7 @@
   {
     "speaker": "",
     "content": "다른 페이지로 넘겨봐도 그녀는 고개를 끄덕일 뿐, 특별한 반응을 보이지 않았다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1412,7 +1412,7 @@
   {
     "speaker": "",
     "content": "내가 글을 읽어주면, 그녀가 같은 문장을 받아 적는 걸까─ 하는 그런 생각도 했지만,",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1427,7 +1427,7 @@
   {
     "speaker": "",
     "content": "그게 정답이었다면 펜이 함께 있었을 테니 그 생각은 접어두기로 했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1442,7 +1442,7 @@
   {
     "speaker": "",
     "content": "페이지를 한 장씩 넘겨보며 읽으니, 책은 한 편의 동화 같았다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1457,7 +1457,7 @@
   {
     "speaker": "",
     "content": "읽기 쉽도록 짧게 끊겨있는 문장이라던가, 유치한 어휘들을 봤을 때 그렇게 보였다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1472,7 +1472,7 @@
   {
     "speaker": "",
     "content": "…혹시, 읽어주는 건가.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1487,7 +1487,7 @@
   {
     "speaker": "",
     "content": "'열쇠'의 규칙성은 매번 일정했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1502,7 +1502,7 @@
   {
     "speaker": "",
     "content": "그러니까, 내가 반드시 '해주는'입장이어야 했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1517,7 +1517,7 @@
   {
     "speaker": "",
     "content": "그런 면에서 나에게만 내용이 보이는 동화책이라는 건\n어쩌면 비교적 친절하다는 생각이 들기도 했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1532,7 +1532,7 @@
   {
     "speaker": "",
     "content": "서로에게 책의 내용이 보였다면 훨씬 난잡한 생각을 했을지도 모를 일이었기에.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden1",
@@ -1547,7 +1547,7 @@
   {
     "speaker": "@",
     "content": "생각난 게 있는데, 잠깐 편하게 있어보실래요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "",
@@ -1562,7 +1562,7 @@
   {
     "speaker": "시은",
     "content": "네? 어떻게요?",
-    "scg": "MSE_Dialogue1",
+    "scg": "MSE_Dialogue2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1577,7 +1577,7 @@
   {
     "speaker": "@",
     "content": "그냥 뭐, 평소 좋아하는 자세라던가…. 없으면 그냥 앉으셔도 되고요.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1592,7 +1592,7 @@
   {
     "speaker": "",
     "content": "시은 씨는 잠시 주춤하다,",
-    "scg": "",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1607,7 +1607,7 @@
   {
     "speaker": "",
     "content": "무릎을 잠시 굽히더니, 이내 등이 하늘로 향하도록 바닥에 철푸덕 누웠다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1622,7 +1622,7 @@
   {
     "speaker": "@",
     "content": "…좋아하는 자세가 그거예요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1667,7 +1667,7 @@
   {
     "speaker": "@",
     "content": "아니, 뭐… 상관은 없는데, 좀 오래 걸릴지도 모르는데 그 자세로 괜찮겠어요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1712,7 +1712,7 @@
   {
     "speaker": "@",
     "content": "의외네요. 드레스가 워낙 깨끗해서 몰랐는데.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1757,7 +1757,7 @@
   {
     "speaker": "@",
     "content": "…애벌레들은 다시 기둥을 기어오르기 시작했습니다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1772,7 +1772,7 @@
   {
     "speaker": "",
     "content": "그녀는 턱을 괸 채 엎드려있고, 그 얼굴 앞에는 낡은 책을,",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1787,7 +1787,7 @@
   {
     "speaker": "",
     "content": "나는 그 옆에 앉아 책을 읽어주는 역할을 하고 있었다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1802,7 +1802,7 @@
   {
     "speaker": "@",
     "content": "그러나 그들은 다시 기둥을 오르는 것을 포기했습니다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1817,7 +1817,7 @@
   {
     "speaker": "",
     "content": "원래부터 이런 포즈는 아니었다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1832,7 +1832,7 @@
   {
     "speaker": "",
     "content": "그녀는 그냥 엎드려있고, 나는 그 옆에 앉아서, 두 손으로 책을 받치고 속 내용을 읽는.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1847,7 +1847,7 @@
   {
     "speaker": "",
     "content": "그런 평범한 자세였을 뿐이었다…만,",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1862,7 +1862,7 @@
   {
     "speaker": "",
     "content": "그녀가 말하기를 '허공만 보고 있으니 심심하다'던가,\n'내가 책을 읽는 시늉이라도 하는 게 '열쇠'의 조건을 맞추는 데 도움이 되지 않을까'라고.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1877,7 +1877,7 @@
   {
     "speaker": "",
     "content": "시은 씨의 말의 뜻을 따라 자세를 살짝 바꿨고,\n나는 엉거주춤하게 허리를 숙여 책을 읽어야 하는 위치가 되어버리고 만 것이다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1892,7 +1892,7 @@
   {
     "speaker": "@",
     "content": "기둥은 기어서 올라가는 것이 아닌, 나비가 되어야….",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1907,7 +1907,7 @@
   {
     "speaker": "",
     "content": "이어서 책의 문단을 읽던 중, 페이지의 모서리 부분부터 점차 바스라지듯 흙이 되어 흩날렸다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1922,7 +1922,7 @@
   {
     "speaker": "",
     "content": "늘 있던, '열쇠'가 사라지는 연출.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -1952,7 +1952,7 @@
   {
     "speaker": "@",
     "content": "알고 있었어요? 이런 식으로 하면 되는 거.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Cute2",
@@ -2012,7 +2012,7 @@
   {
     "speaker": "",
     "content": "…그렇긴 하네.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "",
@@ -2027,7 +2027,7 @@
   {
     "speaker": "",
     "content": "생각해 보면 지금까지 온갖 추리를 동반하거나, 외부,\n그러니까 현실에서 무언가를 가져오고, 그것을 통해서 퍼즐을 푸는 느낌이었는데,",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "",
@@ -2042,7 +2042,7 @@
   {
     "speaker": "",
     "content": "이번에는 오직 정원에서의 행동만으로 열쇠를 사라지게 만들었으니,\n이번 열쇠는 약간 시시하다는 생각까지 들기도 할 정도였다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "",
@@ -2057,7 +2057,7 @@
   {
     "speaker": "@",
     "content": "그렇다 해도 책을 다 읽기도 전에 사라지게 만드는 건 조금 너무한걸.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2087,7 +2087,7 @@
   {
     "speaker": "@",
     "content": "알고 있어요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2102,7 +2102,7 @@
   {
     "speaker": "",
     "content": "시은 씨는 고개를 저으며 대답했다.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2132,7 +2132,7 @@
   {
     "speaker": "@",
     "content": "지금까지 열쇠에 대한 퍼즐을 풀면, 그것에 대한 기억이 떠오르는 건 줄 알았는데.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2177,7 +2177,7 @@
   {
     "speaker": "@",
     "content": "괜히 그러니까 뒤 내용이 조금 궁금해지기도 하고….",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2207,7 +2207,7 @@
   {
     "speaker": "@",
     "content": "무슨 이야기요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2252,7 +2252,7 @@
   {
     "speaker": "@",
     "content": "글쎄요, 못 건너지 않을까요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2312,7 +2312,7 @@
   {
     "speaker": "@",
     "content": "그래요? 어떻게요? 그냥 날아서?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2357,7 +2357,7 @@
   {
     "speaker": "@",
     "content": "그런 날개로 그렇게 멀리까지 날 수 있다니, 신기하네요.",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2417,7 +2417,7 @@
   {
     "speaker": "@",
     "content": "…어떻게 그럴 수 있는 걸까요?",
-    "scg": "",
+    "scg": "MSE_Normal1",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2492,7 +2492,7 @@
   {
     "speaker": "@",
     "content": "날아가다 지쳐서 쉬는 건 나비도 생물이니까 당연한데,",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2507,7 +2507,7 @@
   {
     "speaker": "@",
     "content": "그 중 한 마리 쯤은 쉬면서\n'저 너머에 뭐가 있을지도 모르는데 왜 이렇게 열심히 날아가는거지'같은 생각을 하지 않을까 싶어서요.",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2522,7 +2522,7 @@
   {
     "speaker": "@",
     "content": "그러니까… 나비는 모르잖아요. 우리야 넘어간 나비들을 통해서 조사를 하니까 나비는 바다를 넘어갈 수 있고, 따뜻한 날씨로 날아가는 거구나 하고 생각한다 쳐도,",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2537,7 +2537,7 @@
   {
     "speaker": "@",
     "content": "나비의 입장에서 보면 그걸 모르니까요.",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2552,7 +2552,7 @@
   {
     "speaker": "@",
     "content": "내가 나비였다면, 힘겹게 날갯짓하면서 도박하느니,\n차라리 겨울이 오기 전에 최대한 많은 꽃의 꿀을 먹으려고 할텐데.",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2567,7 +2567,7 @@
   {
     "speaker": "@",
     "content": "시은 씨 생각은 어때요?",
-    "scg": "MSE_EyeMove",
+    "scg": "MSE_Eyemove",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
