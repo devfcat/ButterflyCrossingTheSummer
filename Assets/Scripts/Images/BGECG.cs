@@ -16,7 +16,19 @@ public enum BG
     Station_BG = 7,
     Bus_BG = 8,
     Playground_BG = 9,
-    HarinsRoom_BG = 10
+    HarinsRoom_BG = 10,
+    Office_Rain_BG = 11,
+    CityRoad_Rain_BG = 12,
+    DrugStoreInside_BG = 13,
+    Bakery_BG = 14,
+    ForPlayground_BG = 15,
+    Office_Dinner_BG = 16,
+    FastFood_BG = 17,
+    Cafe_BG = 18,
+    Office_Light_BG = 19,
+    HarinHouseFront_BG = 20,
+    HarinVillInside_BG = 21,
+    HospitalInside_BG = 22,
 }
 
 public enum ECG
@@ -27,6 +39,11 @@ public enum ECG
     MSE_ECG1 = 3,
     MHR_ECG2 = 4,
     MSE_ECG2 = 5,
+    MHR_ECG3 = 6,
+    MSE_ECG3_1 = 7, // 4번 일러스트
+    MSE_ECG5 = 8,
+    MHR_ECG5_1 = 9,
+    MHR_ECG5_2 = 10,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트
