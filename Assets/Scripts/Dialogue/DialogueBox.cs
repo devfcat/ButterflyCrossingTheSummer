@@ -100,7 +100,7 @@ public class DialogueBox : MonoBehaviour
             isAutoCoroutineRunning = false; // 텍스트가 바뀌면 코루틴 플래그 해제
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
             OnClick();
         }
