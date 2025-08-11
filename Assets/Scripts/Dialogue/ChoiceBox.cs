@@ -28,6 +28,7 @@ public class ChoiceBox : MonoBehaviour
     [Header("내부 기능 요소")]
     private bool isInitialized = false; // 초기화 완료 플래그
     public bool isDataSet = false; // 데이터가 설정되었는지 확인하는 플래그
+    private bool isAutoCoroutineRunning = false; // 오토 모드 코루틴 중복 방지
 
     void OnEnable()
     {
@@ -47,6 +48,45 @@ public class ChoiceBox : MonoBehaviour
         SetSound();
         
         isInitialized = true;
+    }
+
+    void OnDisable()
+    {
+        isInitialized = false;
+        isAutoCoroutineRunning = false;
+    }
+
+    void Update()
+    {
+        if (contents.Count == 1) // 선택지가 1개일 때만 작동함
+        {
+            // 오토 모드 코루틴 중복 방지
+            if (QuickMenuManager.Instance.m_mode == Mode.auto && !isAutoCoroutineRunning)
+            {
+                StartCoroutine(Delay_OnClick_Default(2f));
+                isAutoCoroutineRunning = true;
+            }
+
+            if (QuickMenuManager.Instance.m_mode == Mode.skip && !isAutoCoroutineRunning)
+            {
+                StartCoroutine(Delay_OnClick_Default(0.1f));
+                isAutoCoroutineRunning = true;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            {
+                OnClick(0);
+                isAutoCoroutineRunning = false;
+            }
+        }
+    }
+
+    public IEnumerator Delay_OnClick_Default(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        OnClick(0);
+        isAutoCoroutineRunning = false; // 코루틴 끝나면 플래그 해제
     }
 
     public void SetUI()
@@ -153,12 +193,5 @@ public class ChoiceBox : MonoBehaviour
         {
             DialogueManager.Instance.NextPage();
         }
-    }
-
-    void OnDisable()
-    {
-        // 비활성화될 때 플래그 리셋
-        isInitialized = false;
-        // isDataSet은 리셋하지 않음 (데이터는 유지)
     }
 }
