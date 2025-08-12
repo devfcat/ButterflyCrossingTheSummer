@@ -31,13 +31,35 @@ public class SaveCell : MonoBehaviour
     public void Set_UI()
     {
         dateText.text = date;
-        chapterNameText.text = chapter_name; // 추후에 여기서 챕터 제목 적용 변경
+        
+        // 안전한 열거형 파싱
+        if (System.Enum.TryParse<eState>(chapter_name, out eState state))
+        {
+            chapterNameText.text = GameManager.Instance.GetChapterName(state);
+        }
+        else
+        {
+            // 파싱에 실패한 경우 기본값 또는 오류 메시지 표시
+            chapterNameText.text = "알 수 없는 챕터";
+            Debug.LogWarning($"SaveCell: 유효하지 않은 챕터 이름 '{chapter_name}'");
+        }
     }
 
     public void OnClick_Load()
     {
         SaveManager.Instance.OnLoad_Data(this);
-        GameManager.Instance.SetState((eState)System.Enum.Parse(typeof(eState), chapter_name));
+        
+        // 안전한 열거형 파싱
+        if (System.Enum.TryParse<eState>(chapter_name, out eState state))
+        {
+            GameManager.Instance.SetState(state);
+        }
+        else
+        {
+            Debug.LogError($"SaveCell: 로드할 수 없는 챕터 이름 '{chapter_name}'");
+            return;
+        }
+        
         GameManager.Instance.Control_Load(false);
     }
 

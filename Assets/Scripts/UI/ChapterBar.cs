@@ -14,6 +14,6 @@ public class ChapterBar : MonoBehaviour
 
     void SetChapterUI()
     {
-        tmp_chapter.text = GameManager.Instance.m_State.ToString();
+        tmp_chapter.text = GameManager.Instance.GetChapterName(GameManager.Instance.m_State);
     }
 }

@@ -10,7 +10,7 @@ public class QuickSaveCell : SaveCell
     {
         SetInfo();
 
-        chapterNameText.text = chapter_name;
+        chapterNameText.text = GameManager.Instance.GetChapterName((eState)System.Enum.Parse(typeof(eState), chapter_name));
         dateText.text = date;
         SaveManager.Instance.OnLoad_Data(this as SaveCell);
     }
