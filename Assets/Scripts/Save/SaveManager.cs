@@ -362,4 +362,18 @@ public class SaveManager : MonoBehaviour
     {
         return PlayerPrefs.GetInt(name.ToString()) == 1;
     }
+
+    /// <summary>
+    /// 엔딩을 모두 보았는지 확인
+    /// </summary>
+    /// <returns></returns>
+    public bool Check_Ending()
+    {
+        return PlayerPrefs.GetInt("isEnding") == 1;
+    }
+
+    public void Save_Ending()
+    {
+        PlayerPrefs.SetInt("isEnding", 1);
+    }
 }
