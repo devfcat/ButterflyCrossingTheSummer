@@ -93,6 +93,69 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// 챕터의 소제목을 반환해주는 메서드
+    /// </summary>
+    /// <param name="state">해당 챕터</param>
+    /// <returns></returns>
+    public string GetChapterName(eState state)
+    {
+        string chapter_name = "";
+        switch(state)
+        {
+            case eState.Chapter1:
+                chapter_name = "정원 속의 나비";
+                break;
+            case eState.Chapter2:
+                chapter_name = "Chapter2";
+                break;
+            case eState.Chapter3:
+                chapter_name = "Chapter3";
+                break;
+            case eState.Chapter4:
+                chapter_name = "Chapter4";
+                break;
+            case eState.Chapter5:   
+                chapter_name = "Chapter5";
+                break;
+            case eState.Chapter6:
+                chapter_name = "Chapter6";
+                break;
+            case eState.Chapter7:
+                chapter_name = "Chapter7";
+                break;
+            case eState.Chapter8:
+                chapter_name = "Chapter8";
+                break;
+            case eState.Chapter9:
+                chapter_name = "Chapter9";
+                break;
+            case eState.Chapter10:
+                chapter_name = "Chapter10";
+                break;
+            case eState.Chapter11:
+                chapter_name = "Chapter11";
+                break;
+            case eState.Chapter12:
+                chapter_name = "Chapter12";
+                break;
+            case eState.AfterStory:
+                chapter_name = "AfterStory";
+                break;
+            case eState.RealEnd:
+                chapter_name = "RealEnd";
+                break;
+            case eState.StoryEnd:
+                chapter_name = "StoryEnd";
+                break;
+            default:
+                chapter_name = m_State.ToString();
+                break;
+        }
+
+        return chapter_name;
+    }
+
+    /// <summary>
     /// 씬 처음 시작일 경우 isOn = true
     /// 다음 씬으로 넘어가려고 하는 경우 isOn = false
     /// </summary>
