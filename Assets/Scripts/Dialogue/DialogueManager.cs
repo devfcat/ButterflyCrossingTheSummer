@@ -415,6 +415,12 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        // 엔딩을 다 보면 해당 사항을 저장함
+        if (GameManager.Instance.m_State == eState.RealEnd)
+        {
+            SaveManager.Instance.Save_Ending();
+        }
+
         // 다음 씬으로
         if (isReadAddedDialogue)
         {
