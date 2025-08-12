@@ -22,7 +22,7 @@ public class Panel_Setting : MonoBehaviour
         Set_UI_Slider();
         DisplaySetting.Instance.Init();
 
-        if (GameManager.Instance.m_State != eState.Main)
+        if (GameManager.Instance.m_State != eState.Main && GameManager.Instance.m_State != eState.Credits)
         {
             BTN_Save.SetActive(true);
         }
@@ -48,8 +48,16 @@ public class Panel_Setting : MonoBehaviour
 
     public void OnClick_Save_And_Close()
     {
-        SaveManager.Instance.Save_Data();
-        GameManager.Instance.Control_Popup(false);
-        GameManager.Instance.SetState(eState.Main);
+        if (GameManager.Instance.m_State == eState.Credits)
+        {
+            GameManager.Instance.Control_Popup(false);
+            GameManager.Instance.SetState(eState.Main);
+        }
+        else
+        {
+            SaveManager.Instance.Save_Data();
+            GameManager.Instance.Control_Popup(false);
+            GameManager.Instance.SetState(eState.Main);
+        }
     }
 }
