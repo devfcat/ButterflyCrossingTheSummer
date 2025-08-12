@@ -103,49 +103,49 @@ public class GameManager : MonoBehaviour
         switch(state)
         {
             case eState.Chapter1:
-                chapter_name = "정원 속의 나비";
+                chapter_name = "CH1. 나는 잘하고 있는 걸까?";
                 break;
             case eState.Chapter2:
-                chapter_name = "Chapter2";
+                chapter_name = "CH2. 주량을 잘 지킵시다.";
                 break;
             case eState.Chapter3:
-                chapter_name = "Chapter3";
+                chapter_name = "CH3. 아름다운 소녀에게 겁을 주는 것은 재밌습니다.";
                 break;
             case eState.Chapter4:
-                chapter_name = "Chapter4";
+                chapter_name = "CH4. 분명 비는 아침부터 내렸을텐데.";
                 break;
             case eState.Chapter5:   
-                chapter_name = "Chapter5";
+                chapter_name = "CH5. 사실 몰래 초를 하나 더 꽂았지만.";
                 break;
             case eState.Chapter6:
-                chapter_name = "Chapter6";
+                chapter_name = "CH6. 햄버거에 진심인 의외의 그녀.";
                 break;
             case eState.Chapter7:
-                chapter_name = "Chapter7";
+                chapter_name = "CH7. 나비는 바다를 건널 수 있을까?";
                 break;
             case eState.Chapter8:
-                chapter_name = "Chapter8";
+                chapter_name = "CH8. 가끔은 이유없이 잡담을 나누고 싶은 날이 있죠.";
                 break;
             case eState.Chapter9:
-                chapter_name = "Chapter9";
+                chapter_name = "CH9. 너와 어울리지 않는 배경";
                 break;
             case eState.Chapter10:
-                chapter_name = "Chapter10";
+                chapter_name = "CH10. 지극히 평범한 결심";
                 break;
             case eState.Chapter11:
-                chapter_name = "Chapter11";
+                chapter_name = "CH11. 지극히 평범한 일상으로,";
                 break;
             case eState.Chapter12:
-                chapter_name = "Chapter12";
+                chapter_name = "CH12. 그러나 하나의 약속과 함께.";
                 break;
             case eState.AfterStory:
-                chapter_name = "AfterStory";
+                chapter_name = "여름을 건너 이어지기를.";
                 break;
             case eState.RealEnd:
-                chapter_name = "RealEnd";
+                chapter_name = "부디 그러기를.";
                 break;
             case eState.StoryEnd:
-                chapter_name = "StoryEnd";
+                chapter_name = "세상을 떠난 두 사람의 이야기가,";
                 break;
             default:
                 chapter_name = m_State.ToString();
