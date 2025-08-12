@@ -81,6 +81,8 @@ public class DialogueManager : MonoBehaviour
             
             // 선택지 챕터 여부 설정
             isReadAddedDialogue = saveData.isChoiceChapter;
+
+            SaveManager.Instance.m_saveData = null; // 사용한 세이브 데이터 초기화
         }
         else
         {
@@ -402,17 +404,16 @@ public class DialogueManager : MonoBehaviour
     public void Paging()
     {
         Debug.Log($"Paging 호출됨 - isReadAddedDialogue: {isReadAddedDialogue}, m_index: {m_index}, length: {length}");
-        
+        QuickMenuManager.Instance.m_mode = Mode.normal; // 모드 초기화
+
         if (GameManager.Instance.m_State == eState.AfterStory)
         {
             if(!Panel_FakeEnd.activeSelf)
             {
                 Panel_FakeEnd.SetActive(true);
             }
-            m_index = 0;
             return;
         }
-
 
         // 다음 씬으로
         if (isReadAddedDialogue)
@@ -429,8 +430,6 @@ public class DialogueManager : MonoBehaviour
             // 다음 챕터로 이동
             GameManager.Instance.SetState(n_scene);
         }
-
-        m_index = 0; // 대사 인덱스 초기화
     }
 
     /// <summary>
