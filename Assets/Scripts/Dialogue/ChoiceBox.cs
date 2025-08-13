@@ -168,7 +168,7 @@ public class ChoiceBox : MonoBehaviour
         }
         else
         {
-            SoundManager.Instance.StopSFX();
+            // SoundManager.Instance.StopSFX();
         }
     }
 
@@ -182,7 +182,11 @@ public class ChoiceBox : MonoBehaviour
         LogManager.Instance.Add_Log(contents[i]);
         LogManager.Instance.Make_LogUI();
         
-        SoundManager.Instance.PlaySFX(SFX.UI);
+        // 오토 모드나 스킵 모드가 아닐 때만 사운드 재생
+        if (QuickMenuManager.Instance.m_mode == Mode.normal)
+        {
+            SoundManager.Instance.PlaySFX(SFX.UI);
+        }
 
         // 만약에 선택지 결과가 있으면 그 결과에 따라 다음 대사창으로 넘어감
         if (choiceResult != null && choiceResult != "")

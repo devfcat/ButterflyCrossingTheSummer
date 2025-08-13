@@ -191,7 +191,7 @@ public class DialogueBox : MonoBehaviour
         }
         else
         {
-            SoundManager.Instance.StopSFX();
+            // SoundManager.Instance.StopSFX();
         }
     }
 
