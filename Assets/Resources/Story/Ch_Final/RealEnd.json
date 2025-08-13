@@ -862,7 +862,7 @@
     "ecg": "",
     "bgm": "BGM_Grasses",
     "se": "",
-    "fade": "FALSE",
+    "fade": "TRUE",
     "isChoice": "FALSE",
     "choiceResult": "",
     "choiceScore": "",

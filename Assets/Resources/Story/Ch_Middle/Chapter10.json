@@ -2673,7 +2673,7 @@
     "speaker": "",
     "content": "─1460번의 노을 중 30번째 일출을 보고서, 정원의 낮.─",
     "scg": "",
-    "bg": "Garden_BG",
+    "bg": "",
     "ecg": "",
     "bgm": "",
     "se": "",
@@ -2867,7 +2867,7 @@
   {
     "speaker": "",
     "content": "무리라는 감각이 존재하지 않는 세상인 것을,\n누구보다 자세히 아는 그녀가 날 걱정하는 말을 뱉는 게 의아했다.",
-    "scg": "MSE_DialogueLaugh",
+    "scg": "MSE_Normal2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
@@ -2882,7 +2882,7 @@
   {
     "speaker": "",
     "content": "다른 의미가 있는 건가 싶기도 했지만, 그냥 말을 그대로 받아들이기로 했다.",
-    "scg": "MSE_DialogueLaugh",
+    "scg": "MSE_Normal2",
     "bg": "Garden_BG",
     "ecg": "",
     "bgm": "BGM_Garden2",
