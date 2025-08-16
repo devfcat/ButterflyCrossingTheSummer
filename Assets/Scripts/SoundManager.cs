@@ -269,6 +269,14 @@ public class SoundManager : MonoBehaviour
     {
         bgmPlayer = GetComponentsInChildren<AudioSource>()[0];
         sfxPlayer = GetComponentsInChildren<AudioSource>()[1];
+        
+        // 크레딧 씬에서는 브금을 무한재생하지 않는다
+        if (GameManager.Instance.m_State == eState.Credits)
+        {
+            // 브금을 무한재생하지 않는다
+            bgmPlayer.loop = false;
+        }
+        else bgmPlayer.loop = true;
     }
 
     /// <summary>
