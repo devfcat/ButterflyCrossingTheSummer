@@ -69,6 +69,11 @@ public class QuickMenu : MonoBehaviour
 
     public void OnClick_UIOff()
     {
+        if (QuickMenuManager.Instance.m_mode != Mode.normal)
+        {
+            QuickMenuManager.Instance.m_mode = Mode.normal;
+        }
+        
         SoundManager.Instance.PlaySFX(SFX.UI);
         QuickMenuManager.Instance.ControlUIImages(false);
     }
