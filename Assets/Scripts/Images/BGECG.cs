@@ -57,7 +57,25 @@ public enum BG
     CountryStation_BG = 48,
     CountryBusStation_BG = 49,
     Reeds_BG = 50,
-
+    MHR_ECG5_1 = 51,
+    MHR_ECG5_2 = 52,
+    SD_MHR1 = 53,
+    Comics1_1 = 54,
+    Comics1_2 = 55,
+    Comics1_3 = 56,
+    Comics2_1 = 57,
+    Comics2_2 = 58,
+    Comics3_1 = 59,
+    Comics3_2 = 60,
+    Comics4_1 = 61,
+    Comics4_2 = 62,
+    Comics4_3 = 63,
+    Comics5_1 = 64,
+    Comics5_2 = 65,
+    Comics5_3 = 66,
+    Comics9_1 = 67,
+    Comics9_2 = 68,
+    Comics9_3 = 69,
 }
 
 public enum ECG
@@ -75,7 +93,9 @@ public enum ECG
     MHR_ECG5_2 = 10,
     MSE_ECG6 = 11,
     MHR_ECG4 = 12,
-    MHR_ECG6 = 13,
+    MHR_ECG6_Sunset = 13,
+    MHR_ECG6_Morning = 14,
+    MHR_ECG6_Night = 15,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트
