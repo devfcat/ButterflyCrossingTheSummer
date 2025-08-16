@@ -408,9 +408,16 @@ public class DialogueManager : MonoBehaviour
 
         if (GameManager.Instance.m_State == eState.AfterStory)
         {
-            if(!Panel_FakeEnd.activeSelf)
+            try
             {
-                Panel_FakeEnd.SetActive(true);
+                if(!Panel_FakeEnd.activeSelf)
+                {
+                    Panel_FakeEnd.SetActive(true);
+                }
+            }
+            catch
+            {
+
             }
             return;
         }
