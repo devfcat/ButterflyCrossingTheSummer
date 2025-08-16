@@ -3841,7 +3841,22 @@
   },
   {
     "speaker": "",
-    "content": "평소 운동과 거리가 먼 삶을 살다 보니 걸을수록 다리에 피로가 쌓여만 가서,\n의도치 않게 다리가 휘청거린 탓에 등에 매달린 그녀가 흔들거리는 것도 어쩌면 당연한 서순이었다.",
+    "content": "평소 운동과 거리가 먼 삶을 살다 보니 걸을수록 다리에 피로가 쌓여만 가서,",
+    "scg": "MHR_Normal1",
+    "bg": "Playground_BG",
+    "ecg": "",
+    "bgm": "BGM_Cute1",
+    "se": "",
+    "fade": "FALSE",
+    "isChoice": "FALSE",
+    "choiceResult": "",
+    "choiceScore": "",
+    "isChangeSoft": "TRUE",
+    "fadeTime": ""
+  },
+  {
+    "speaker": "",
+    "content": "의도치 않게 다리가 휘청거린 탓에 등에 매달린 그녀가 흔들거리는 것도 어쩌면 당연한 서순이었다.",
     "scg": "MHR_Normal1",
     "bg": "Playground_BG",
     "ecg": "",
