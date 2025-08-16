@@ -333,6 +333,7 @@ MonoBehaviour:
   arrow: {fileID: 8187373472165600686}
   m_textAnimation: {fileID: 838395507617365577}
   parser: {fileID: 4876637412640382507}
+  isDataSet: 0
 --- !u!114 &8267457420654872250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +664,7 @@ GameObject:
   - component: {fileID: 4301052221518289619}
   - component: {fileID: 7881891917652718689}
   - component: {fileID: 6737183979986589276}
+  - component: {fileID: 4481665602759577361}
   m_Layer: 5
   m_Name: speaker
   m_TagString: Untagged
@@ -720,15 +722,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: '@'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 73077d3e3db863d47a2cb5e70c8fb929, type: 2}
-  m_sharedMaterial: {fileID: -7785543962947406705, guid: 73077d3e3db863d47a2cb5e70c8fb929, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1a941b6e809430748810f4db580d31cc, type: 2}
+  m_sharedMaterial: {fileID: -7785543962947406705, guid: 1a941b6e809430748810f4db580d31cc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -787,3 +789,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4481665602759577361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572438100740194066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc963df73b3a49a40abcec2ec2028702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  font_harin: {fileID: 11400000, guid: d57518e8285390543b40c78ebc5c04e6, type: 2}
+  font_minsieun: {fileID: 11400000, guid: 65015d5e60281a4459de201bdff36366, type: 2}
+  font_default: {fileID: 11400000, guid: 1a941b6e809430748810f4db580d31cc, type: 2}
