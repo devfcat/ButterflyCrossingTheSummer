@@ -92,11 +92,11 @@ public enum ECG
     MSE_ECG5 = 8,
     MHR_ECG5_1 = 9,
     MHR_ECG5_2 = 10,
-    MSE_ECG6 = 11,
+    MHR_ECG6 = 11,
     MHR_ECG4 = 12,
-    MHR_ECG6_Sunset = 13,
-    MHR_ECG6_Morning = 14,
-    MHR_ECG6_Night = 15,
+    MSE_ECG6_Sunset = 13,
+    MSE_ECG6_Morning = 14,
+    MSE_ECG6_Night = 15,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트
