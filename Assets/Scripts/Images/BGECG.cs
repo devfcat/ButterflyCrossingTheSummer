@@ -76,6 +76,7 @@ public enum BG
     Comics9_1 = 67,
     Comics9_2 = 68,
     Comics9_3 = 69,
+    AroundCompany_BG = 70
 }
 
 public enum ECG
