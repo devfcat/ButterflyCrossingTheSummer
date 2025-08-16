@@ -301,7 +301,7 @@ public class GameManager : MonoBehaviour
 
 
         m_State = state;
-        if (m_State == eState.StoryEnd) // 가짜 엔딩에서 넘어갈 떄는 갑자기 넘어감
+        if (m_State == eState.RealEnd) // 후일담에서 넘어갈 때
         {
             StartCoroutine(ChangeScene_FakeEnd(m_State.ToString()));
         }
