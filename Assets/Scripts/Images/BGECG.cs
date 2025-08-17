@@ -97,6 +97,7 @@ public enum ECG
     MSE_ECG6_Sunset = 13,
     MSE_ECG6_Morning = 14,
     MSE_ECG6_Night = 15,
+    MSE_ECG7 = 16,
 }
 
 // 배경, 캐릭터 특별 일러스트를 관리하는 스크립트
