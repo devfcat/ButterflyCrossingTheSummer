@@ -16,6 +16,22 @@ public class QuickMenu : MonoBehaviour
     [SerializeField] private Image saveButtonImage; // 저장 버튼 이미지
     private bool isSaveCooldown = false; // 저장 쿨다운 상태
 
+    private static QuickMenu _instance;
+    public static QuickMenu Instance
+    {
+        get
+        {
+            if (!_instance)
+            {
+                _instance = FindObjectOfType(typeof(QuickMenu)) as QuickMenu;
+
+                if (_instance == null)
+                    Debug.Log("no Singleton obj");
+            }
+            return _instance;
+        }
+    }
+
     void OnEnable()
     {
         Init();
