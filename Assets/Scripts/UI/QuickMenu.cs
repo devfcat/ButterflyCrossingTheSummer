@@ -41,7 +41,6 @@ public class QuickMenu : MonoBehaviour
     void OnDisable()
     {
         animator.SetTrigger("Close");
-        Init();
     }
 
     void Init()
@@ -64,7 +63,7 @@ public class QuickMenu : MonoBehaviour
     public void OnClick()
     {
         if(isOpen) // 퀵메뉴가 켜져 있는 상태에서 클릭했다면 퀵메뉴를 넣음
-        {
+        {           
             SoundManager.Instance.PlaySFX(SFX.UI);
             // 퀵메뉴 닫기
             animator.SetTrigger("Close");
