@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 대화창의 전체 흐름을 관리하는 스크립트
@@ -65,6 +66,11 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        Load_Chapter();
+    }
+
+    void Load_Chapter()
+    {
         // 세이브 데이터가 있으면 로드, 없으면 기본값 설정
         if (SaveManager.Instance.m_saveData != null)
         {
@@ -83,7 +89,9 @@ public class DialogueManager : MonoBehaviour
             isReadAddedDialogue = saveData.isChoiceChapter;
 
             SaveManager.Instance.m_saveData = null; // 사용한 세이브 데이터 초기화
-            DataReset();
+
+            Load_Dialogue(); // 기본 대화 파일을 모두 로드한다.
+            return;
         }
         else
         {
@@ -100,7 +108,6 @@ public class DialogueManager : MonoBehaviour
         m_addedIndex = 0;
         m_choiceFileIndex = 0;
         isReadAddedDialogue = false;
-    
     }
 
     /// <summary>
