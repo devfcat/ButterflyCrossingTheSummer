@@ -9,6 +9,7 @@ public class ChoiceBox : MonoBehaviour
     public string bgm;
     public string? se;
     public bool fade;
+    public float? fadeTime; // 커튼 페이드 시간(fade가 true일 때만 사용)
     public bool isChoice;
     public string? choiceResult; //1A#1B#1C 등 선택지 파일 이름 형식
     public string? choiceScore;
@@ -182,11 +183,7 @@ public class ChoiceBox : MonoBehaviour
         LogManager.Instance.Add_Log(contents[i]);
         LogManager.Instance.Make_LogUI();
         
-        // 오토 모드나 스킵 모드가 아닐 때만 사운드 재생
-        if (QuickMenuManager.Instance.m_mode == Mode.normal)
-        {
-            SoundManager.Instance.PlaySFX(SFX.UI);
-        }
+        if (QuickMenuManager.Instance.m_mode == Mode.normal) SoundManager.Instance.PlaySFX(SFX.UI);
 
         // 만약에 선택지 결과가 있으면 그 결과에 따라 다음 대사창으로 넘어감
         if (choiceResult != null && choiceResult != "")
@@ -195,7 +192,22 @@ public class ChoiceBox : MonoBehaviour
         }
         else
         {
-            DialogueManager.Instance.NextPage();
+            /// 만약 현재 대사창의 fade가 true라면 이 대사를 다 보고 다음 대사창으로 넘어가기 전에 커튼을 페이드 시킴
+            if (fade && QuickMenuManager.Instance.m_mode != Mode.skip) // 만약 스킵이나 오토라면 넘길 때 암전효과를 끔   
+            {
+                // gameManager의 커튼을 일정 시간 세팅하고 완료 후 다음 페이지로
+                StartCoroutine(CurtainAndNextPage(fadeTime ?? 1f));
+            }
+            else
+            {
+                DialogueManager.Instance.NextPage();
+            }
         }
+    }
+
+    private IEnumerator CurtainAndNextPage(float time)
+    {
+        yield return StartCoroutine(GameManager.Instance.Curtain(time));
+        DialogueManager.Instance.NextPage();
     }
 }

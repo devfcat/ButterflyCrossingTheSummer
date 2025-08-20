@@ -66,6 +66,12 @@ public class QuickMenuManager : MonoBehaviour
             }
         }
 
+        // 마우스 우클릭 시 퀵메뉴를 엶
+        if (Input.GetMouseButtonDown(1))
+        {
+            QuickMenu.Instance.OnClick();
+        }
+
         /// 스페이스바를 2초 이상 누르면 스킵 모드를 활성화함
         /// 이후 스페이스 꾹 누르면 아이콘 뜨도록 작업할 예정
         if (Input.GetKey(KeyCode.Space))

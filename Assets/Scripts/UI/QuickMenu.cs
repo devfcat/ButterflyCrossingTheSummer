@@ -16,6 +16,22 @@ public class QuickMenu : MonoBehaviour
     [SerializeField] private Image saveButtonImage; // 저장 버튼 이미지
     private bool isSaveCooldown = false; // 저장 쿨다운 상태
 
+    private static QuickMenu _instance;
+    public static QuickMenu Instance
+    {
+        get
+        {
+            if (!_instance)
+            {
+                _instance = FindObjectOfType(typeof(QuickMenu)) as QuickMenu;
+
+                if (_instance == null)
+                    Debug.Log("no Singleton obj");
+            }
+            return _instance;
+        }
+    }
+
     void OnEnable()
     {
         Init();
@@ -25,7 +41,6 @@ public class QuickMenu : MonoBehaviour
     void OnDisable()
     {
         animator.SetTrigger("Close");
-        Init();
     }
 
     void Init()
@@ -48,7 +63,7 @@ public class QuickMenu : MonoBehaviour
     public void OnClick()
     {
         if(isOpen) // 퀵메뉴가 켜져 있는 상태에서 클릭했다면 퀵메뉴를 넣음
-        {
+        {           
             SoundManager.Instance.PlaySFX(SFX.UI);
             // 퀵메뉴 닫기
             animator.SetTrigger("Close");
@@ -69,6 +84,11 @@ public class QuickMenu : MonoBehaviour
 
     public void OnClick_UIOff()
     {
+        if (QuickMenuManager.Instance.m_mode != Mode.normal)
+        {
+            QuickMenuManager.Instance.m_mode = Mode.normal;
+        }
+        
         SoundManager.Instance.PlaySFX(SFX.UI);
         QuickMenuManager.Instance.ControlUIImages(false);
     }

@@ -299,8 +299,36 @@ public class GameManager : MonoBehaviour
             isWorking = true;
         }
 
+
         m_State = state;
-        StartCoroutine(Change_Scene(m_State.ToString()));
+        if (m_State == eState.RealEnd) // 후일담에서 넘어갈 때
+        {
+            StartCoroutine(ChangeScene_FakeEnd(m_State.ToString()));
+        }
+        else
+        {
+            StartCoroutine(Change_Scene(m_State.ToString()));
+        }
+    }
+
+    IEnumerator ChangeScene_FakeEnd(string scenename)
+    {
+        Control_Popup(false, m_Popup, false); // 팝업을 닫음
+        SoundManager.Instance.StopBGM(); 
+
+        //yield return StartCoroutine(Fade()); // 창 어둡게
+
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(scenename);
+
+        while (!asyncOperation.isDone)
+        {
+            isWorking = true;
+            yield return null;
+        }
+        asyncOperation.allowSceneActivation = true;
+        //StartCoroutine(Fade(true));
+
+        isWorking = false;
     }
 
     /// <summary>

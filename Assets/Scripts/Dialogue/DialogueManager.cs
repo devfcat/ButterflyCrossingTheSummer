@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 대화창의 전체 흐름을 관리하는 스크립트
@@ -63,7 +64,12 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void OnEnable()
+    void Start()
+    {
+        Load_Chapter();
+    }
+
+    void Load_Chapter()
     {
         // 세이브 데이터가 있으면 로드, 없으면 기본값 설정
         if (SaveManager.Instance.m_saveData != null)
@@ -83,18 +89,25 @@ public class DialogueManager : MonoBehaviour
             isReadAddedDialogue = saveData.isChoiceChapter;
 
             SaveManager.Instance.m_saveData = null; // 사용한 세이브 데이터 초기화
+
+            Load_Dialogue(); // 기본 대화 파일을 모두 로드한다.
+            return;
         }
         else
         {
             Debug.Log("세이브 데이터가 없습니다.");
-            // 기본값 설정
-            m_index = 0;
-            m_addedIndex = 0;
-            m_choiceFileIndex = 0;
-            isReadAddedDialogue = false;
         }
 
+        DataReset();
         Load_Dialogue(); // 기본 대화 파일을 모두 로드한다.
+    }
+
+    void DataReset()
+    {
+        m_index = 0;
+        m_addedIndex = 0;
+        m_choiceFileIndex = 0;
+        isReadAddedDialogue = false;
     }
 
     /// <summary>
@@ -284,12 +297,13 @@ public class DialogueManager : MonoBehaviour
             Paging(); // 마지막 대사창을 처리하는 메서드 호출
             yield return null;
         }
-        else if (m_index > 0)
+        else //if (m_index > 0) // 대사 넘기는 보통의 상황
         {
-            if (m_index - 1 < my_dialogues.Count)
+            if (m_index - 1 < my_dialogues.Count && m_index - 1 >= 0)
             {
                 my_dialogues[m_index-1].SetActive(false);
             }
+            
             if (m_index < my_dialogues.Count)
             {
                 // 이미 활성화되어 있는지 확인
@@ -299,7 +313,8 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-        else 
+        /*
+        else // 첫 대사일 때
         {
             if (m_index < my_dialogues.Count)
             {
@@ -308,8 +323,10 @@ public class DialogueManager : MonoBehaviour
                 {
                     my_dialogues[m_index].SetActive(true); // 첫 시작
                 }
+                
             }
         }
+        */
 
         // 다음 씬으로 넘겨지고 있을 때 return하여 예외처리
         if (m_index >= list_dialogue.Count)
@@ -408,9 +425,16 @@ public class DialogueManager : MonoBehaviour
 
         if (GameManager.Instance.m_State == eState.AfterStory)
         {
-            if(!Panel_FakeEnd.activeSelf)
+            try
             {
-                Panel_FakeEnd.SetActive(true);
+                if(!Panel_FakeEnd.activeSelf)
+                {
+                    Panel_FakeEnd.SetActive(true);
+                }
+            }
+            catch
+            {
+
             }
             return;
         }
