@@ -265,7 +265,7 @@ public class SoundManager : MonoBehaviour
         SetVolumePref();
     }
 
-    private void Init()
+    public void Init()
     {
         bgmPlayer = GetComponentsInChildren<AudioSource>()[0];
         sfxPlayer = GetComponentsInChildren<AudioSource>()[1];
