@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class Pages : MonoBehaviour
 {
-    public void Home()
-    {
-        GameManager.Instance.SetState(eState.Main);
-    }
+
 }
