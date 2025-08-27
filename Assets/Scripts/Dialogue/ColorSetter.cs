@@ -13,7 +13,7 @@ public class ColorSetter : MonoBehaviour
 
     void OnEnable()
     {
-        SetColor();
+        // SetColor();
     }
 
     void SetColor()
