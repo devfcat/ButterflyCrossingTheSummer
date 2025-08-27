@@ -331,6 +331,7 @@ public class SoundManager : MonoBehaviour
 
     public void StopBGM()
     {
+        Debug.Log("StopBGM");
         bgmPlayer.clip = null;
         bgmPlayer.Stop();
     }

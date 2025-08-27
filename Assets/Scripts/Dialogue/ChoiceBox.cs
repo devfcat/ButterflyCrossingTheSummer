@@ -159,6 +159,11 @@ public class ChoiceBox : MonoBehaviour
                 SoundManager.Instance.PlayBGM(bgmEnum);
             }
         }
+        else
+        {
+            Debug.Log("해당 브금 없음");
+            SoundManager.Instance.StopBGM();
+        }
 
         if (se != null && se != "")
         {
