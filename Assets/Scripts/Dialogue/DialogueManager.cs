@@ -348,6 +348,22 @@ public class DialogueManager : MonoBehaviour
                 Debug.LogWarning($"유효하지 않은 ECG 값: {list_dialogue[m_index].ecg}");
             }
         }
+
+        if (!string.IsNullOrEmpty(list_dialogue[m_index].bg))
+        {
+            try
+            {
+                if (list_dialogue[m_index].bg == "MHR_ECG5_2")
+                {
+                    Debug.Log("MHR_ECG5_2 감지");
+                    SaveManager.Instance.Save_ECGData(ECG.MHR_ECG5_2);
+                }
+            }
+            catch (System.ArgumentException)
+            {
+                Debug.LogWarning($"유효하지 않은 BG 값: {list_dialogue[m_index].bg}");
+            }
+        }
         
         // 이번 대사창이 선택지 창이 아니라면 로그 박스에 바로 추가함  
         if (m_index < list_dialogue.Count && !list_dialogue[m_index].isChoiceBool)
